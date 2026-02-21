@@ -179,7 +179,7 @@
                     "excludeFromSearch": false,
                     "font": "Arial",
                     "id": -6837773204571563425,
-                    "name": "ich",
+                    "name": "präsens_ich",
                     "ord": 4,
                     "plainText": false,
                     "preventDeletion": false,
@@ -345,7 +345,7 @@
                     "afmt": "{{#partizip_1}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th><span class=\"text-red\">Partizip I</span></th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{partizip_1}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/partizip_1}}",
                     "bafmt": "",
                     "bfont": "",
-                    "bqfmt": "",
+                    "bqfmt": "{{infinitiv}}",
                     "bsize": 0,
                     "did": null,
                     "id": -64163215761323039,
@@ -354,22 +354,22 @@
                     "qfmt": "{{#partizip_1}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>\n\n<span class=\"text-red\">Partizip I</span>\n</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/partizip_1}}"
                 },
                 {
-                    "afmt": "{{#ich}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>ich</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{ich}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/ich}}",
+                    "afmt": "{{#präsens_ich}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>ich</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{präsens_ich}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_ich}}",
                     "bafmt": "",
                     "bfont": "",
-                    "bqfmt": "",
+                    "bqfmt": "{{infinitiv}}",
                     "bsize": 0,
                     "did": null,
                     "id": -1634890554944776920,
                     "name": "Card 3",
                     "ord": 2,
-                    "qfmt": "{{#ich}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>ich</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/ich}}"
+                    "qfmt": "{{#präsens_ich}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>ich</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_ich}}"
                 },
                 {
                     "afmt": "{{#er_sie_es}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>er/sie/es</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{er_sie_es}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/er_sie_es}}",
                     "bafmt": "",
                     "bfont": "",
-                    "bqfmt": "",
+                    "bqfmt": "{{infinitiv}}",
                     "bsize": 0,
                     "did": null,
                     "id": 5798953611990909219,
@@ -381,7 +381,7 @@
                     "afmt": "{{#wir}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>wir</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{wir}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/wir}}",
                     "bafmt": "",
                     "bfont": "",
-                    "bqfmt": "",
+                    "bqfmt": "{{infinitiv}}",
                     "bsize": 0,
                     "did": null,
                     "id": -5661346021493920127,
@@ -393,7 +393,7 @@
                     "afmt": "{{#ihr}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>ihr</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{ihr}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/ihr}}",
                     "bafmt": "",
                     "bfont": "",
-                    "bqfmt": "",
+                    "bqfmt": "{{infinitiv}}",
                     "bsize": 0,
                     "did": null,
                     "id": -2638171386782144846,
@@ -405,7 +405,7 @@
                     "afmt": "{{#sie_Sie}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>sie/Sie</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{sie_Sie}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/sie_Sie}}",
                     "bafmt": "",
                     "bfont": "",
-                    "bqfmt": "",
+                    "bqfmt": "{{infinitiv}}",
                     "bsize": 0,
                     "did": null,
                     "id": -7600747913271215006,
@@ -1079,102 +1079,6 @@
             "guid": "o1G_U10Sp6",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
             "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "stehen",
-                "to stand",
-                "stehend",
-                "gestanden",
-                "stehe",
-                "stehst",
-                "steht",
-                "stehen",
-                "steht",
-                "stehen"
-            ],
-            "guid": "cOj#yE/TL@",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "liegen",
-                "to lie, to be lying",
-                "liegend",
-                "gelegen",
-                "liege",
-                "liegst",
-                "liegt",
-                "liegen",
-                "liegt",
-                "liegen"
-            ],
-            "guid": "D6VYWs#Dax",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "an·bieten",
-                "to offer",
-                "anbietend",
-                "angeboten",
-                "biete an",
-                "bietest an",
-                "bietet an",
-                "bieten an",
-                "bietet an",
-                "bieten an"
-            ],
-            "guid": "ytObR%a2CM",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": [
-                "trennbar"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "an·fangen",
-                "to begin",
-                "anfangend",
-                "angefangen",
-                "fange an",
-                "fängst an",
-                "fängt an",
-                "fangen an",
-                "fangt an",
-                "fangen an"
-            ],
-            "guid": "fW_!Q%/<GO",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": [
-                "trennbar"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "an·sehen",
-                "to look at",
-                "ansehend",
-                "angesehen",
-                "sehe an",
-                "siehst an",
-                "sieht an",
-                "sehen an",
-                "seht an",
-                "sehen an"
-            ],
-            "guid": "Dzf!I]49R>",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": [
-                "trennbar"
-            ]
         },
         {
             "__type__": "Note",
