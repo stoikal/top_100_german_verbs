@@ -277,6 +277,21 @@
                     "size": 20,
                     "sticky": false,
                     "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 8137050417720424513,
+                    "name": "irregular",
+                    "ord": 11,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
                 }
             ],
             "latexPost": "\\end{document}",
@@ -290,6 +305,7 @@
                     "all",
                     [
                         0,
+                        2,
                         4
                     ]
                 ],
@@ -298,7 +314,8 @@
                     "all",
                     [
                         0,
-                        3
+                        5,
+                        11
                     ]
                 ],
                 [
@@ -306,7 +323,8 @@
                     "all",
                     [
                         0,
-                        5
+                        6,
+                        11
                     ]
                 ],
                 [
@@ -314,7 +332,8 @@
                     "all",
                     [
                         0,
-                        7
+                        7,
+                        11
                     ]
                 ],
                 [
@@ -322,7 +341,8 @@
                     "all",
                     [
                         0,
-                        8
+                        8,
+                        11
                     ]
                 ],
                 [
@@ -330,7 +350,8 @@
                     "all",
                     [
                         0,
-                        9
+                        9,
+                        11
                     ]
                 ],
                 [
@@ -338,14 +359,15 @@
                     "all",
                     [
                         0,
-                        10
+                        10,
+                        11
                     ]
                 ]
             ],
             "sortf": 0,
             "tmpls": [
                 {
-                    "afmt": "{{#partizip_2}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>Partizip II</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{partizip_2}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/partizip_2}}",
+                    "afmt": "{{#partizip_2}}\n{{#perfekt_hilfsverb}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>Perfekt</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{perfekt_hilfsverb}} {{partizip_2}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/perfekt_hilfsverb}}\n{{/partizip_2}}",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "{{infinitiv}}",
@@ -354,79 +376,79 @@
                     "id": -5310240084013495701,
                     "name": "Card 1",
                     "ord": 0,
-                    "qfmt": "{{#partizip_2}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>Partizip II</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/partizip_2}}"
+                    "qfmt": "{{#partizip_2}}\n{{#perfekt_hilfsverb}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>Perfekt</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/perfekt_hilfsverb}}\n{{/partizip_2}}"
                 },
                 {
-                    "afmt": "{{#partizip_1}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th><span class=\"text-red\">Partizip I</span></th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{partizip_1}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/partizip_1}}",
+                    "afmt": "{{#irregular}}\n{{#präsens_ich}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>ich</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{präsens_ich}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_ich}}\n{{/irregular}}",
                     "bafmt": "",
                     "bfont": "",
-                    "bqfmt": "{{infinitiv}}",
+                    "bqfmt": "",
                     "bsize": 0,
                     "did": null,
-                    "id": -64163215761323039,
+                    "id": -8618730438274029698,
                     "name": "Card 2",
                     "ord": 1,
-                    "qfmt": "{{#partizip_1}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>\n\n<span class=\"text-red\">Partizip I</span>\n</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/partizip_1}}"
+                    "qfmt": "{{#irregular}}\n{{#präsens_ich}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>ich</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_ich}}\n{{/irregular}}"
                 },
                 {
-                    "afmt": "{{#präsens_ich}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>ich</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{präsens_ich}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_ich}}",
+                    "afmt": "{{#irregular}}\n{{#präsens_du}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>du</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{präsens_du}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_du}}\n{{/irregular}}",
                     "bafmt": "",
                     "bfont": "",
-                    "bqfmt": "{{infinitiv}}",
+                    "bqfmt": "",
                     "bsize": 0,
                     "did": null,
-                    "id": -1634890554944776920,
+                    "id": 3417835133816006513,
                     "name": "Card 3",
                     "ord": 2,
-                    "qfmt": "{{#präsens_ich}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>ich</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_ich}}"
+                    "qfmt": "{{#irregular}}\n{{#präsens_du}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>du</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_du}}\n{{/irregular}}"
                 },
                 {
-                    "afmt": "{{#präsens_er_sie_es}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>er/sie/es</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{präsens_er_sie_es}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_er_sie_es}}",
+                    "afmt": "{{#irregular}}\n{{#präsens_er_sie_es}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>er/sie/es</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{präsens_er_sie_es}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_er_sie_es}}\n{{/irregular}}",
                     "bafmt": "",
                     "bfont": "",
-                    "bqfmt": "{{infinitiv}}",
+                    "bqfmt": "",
                     "bsize": 0,
                     "did": null,
-                    "id": 5798953611990909219,
+                    "id": 8022338457476321242,
                     "name": "Card 4",
                     "ord": 3,
-                    "qfmt": "{{#präsens_er_sie_es}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>er/sie/es</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_er_sie_es}}"
+                    "qfmt": "{{#irregular}}\n{{#präsens_er_sie_es}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>er/sie/es</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_er_sie_es}}\n{{/irregular}}"
                 },
                 {
-                    "afmt": "{{#präsens_wir}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>wir</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{präsens_wir}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_wir}}",
+                    "afmt": "{{#irregular}}\n{{#präsens_wir}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>wir</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{präsens_wir}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_wir}}\n{{/irregular}}",
                     "bafmt": "",
                     "bfont": "",
-                    "bqfmt": "{{infinitiv}}",
+                    "bqfmt": "",
                     "bsize": 0,
                     "did": null,
-                    "id": -5661346021493920127,
+                    "id": -5180590165654532213,
                     "name": "Card 5",
                     "ord": 4,
-                    "qfmt": "{{#präsens_wir}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>wir</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_wir}}"
+                    "qfmt": "{{#irregular}}\n{{#präsens_wir}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>wir</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_wir}}\n{{/irregular}}"
                 },
                 {
-                    "afmt": "{{#präsens_ihr}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>ihr</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{präsens_ihr}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_ihr}}",
+                    "afmt": "{{#irregular}}\n{{#präsens_ihr}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>ihr</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{präsens_ihr}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_ihr}}\n{{/irregular}}",
                     "bafmt": "",
                     "bfont": "",
-                    "bqfmt": "{{infinitiv}}",
+                    "bqfmt": "",
                     "bsize": 0,
                     "did": null,
-                    "id": -2638171386782144846,
+                    "id": -5995462104599391384,
                     "name": "Card 6",
                     "ord": 5,
-                    "qfmt": "{{#präsens_ihr}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>ihr</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_ihr}}"
+                    "qfmt": "{{#irregular}}\n{{#präsens_ihr}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>ihr</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_ihr}}\n{{/irregular}}"
                 },
                 {
-                    "afmt": "{{#präsens_sie_Sie}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>sie/Sie</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{präsens_sie_Sie}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_sie_Sie}}",
+                    "afmt": "{{#irregular}}\n{{#präsens_sie_Sie}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>sie/Sie</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{präsens_sie_Sie}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_sie_Sie}}\n{{/irregular}}",
                     "bafmt": "",
                     "bfont": "",
-                    "bqfmt": "{{infinitiv}}",
+                    "bqfmt": "",
                     "bsize": 0,
                     "did": null,
-                    "id": -7600747913271215006,
+                    "id": -1826269668653084167,
                     "name": "Card 7",
                     "ord": 6,
-                    "qfmt": "{{#präsens_sie_Sie}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>sie/Sie</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_sie_Sie}}"
+                    "qfmt": "{{#irregular}}\n{{#präsens_sie_Sie}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>sie/Sie</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_sie_Sie}}\n{{/irregular}}"
                 }
             ],
             "type": 0
@@ -446,7 +468,8 @@
                 "geht",
                 "gehen",
                 "geht",
-                "gehen"
+                "gehen",
+                ""
             ],
             "guid": "f|0EA$M|TN",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -465,11 +488,14 @@
                 "ist",
                 "sind",
                 "seid",
-                "sind"
+                "sind",
+                "1"
             ],
             "guid": "soX<^Gp^i-",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
+            "tags": [
+                "irregular"
+            ]
         },
         {
             "__type__": "Note",
@@ -484,11 +510,14 @@
                 "hat",
                 "haben",
                 "habt",
-                "haben"
+                "haben",
+                "1"
             ],
             "guid": "d,&_Q=z:Z.",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
+            "tags": [
+                "irregular"
+            ]
         },
         {
             "__type__": "Note",
@@ -503,11 +532,14 @@
                 "wird",
                 "werden",
                 "werdet",
-                "werden"
+                "werden",
+                "1"
             ],
             "guid": "s/7w[8?Kxn",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
+            "tags": [
+                "irregular"
+            ]
         },
         {
             "__type__": "Note",
@@ -522,7 +554,8 @@
                 "kommt",
                 "kommen",
                 "kommt",
-                "kommen"
+                "kommen",
+                ""
             ],
             "guid": "op$~y,Bz<9",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -541,12 +574,13 @@
                 "fährt",
                 "fahren",
                 "fahrt",
-                "fahren"
+                "fahren",
+                "1"
             ],
             "guid": "A}v.+6%tDP",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
             "tags": [
-                "vocalwechsel"
+                "vokalwechsel"
             ]
         },
         {
@@ -562,7 +596,8 @@
                 "bleibt",
                 "bleiben",
                 "bleibt",
-                "bleiben"
+                "bleiben",
+                ""
             ],
             "guid": "tCuQjnPXB,",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -581,12 +616,13 @@
                 "gibt",
                 "geben",
                 "gebt",
-                "geben"
+                "geben",
+                "1"
             ],
             "guid": "l$T~snn:es",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
             "tags": [
-                "vocalwechsel"
+                "vokalwechsel"
             ]
         },
         {
@@ -602,12 +638,13 @@
                 "nimmt",
                 "nehmen",
                 "nehmt",
-                "nehmen"
+                "nehmen",
+                "1"
             ],
             "guid": "y{9#lt@?vT",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
             "tags": [
-                "vocalwechsel"
+                "vokalwechsel"
             ]
         },
         {
@@ -623,12 +660,13 @@
                 "sieht",
                 "sehen",
                 "seht",
-                "sehen"
+                "sehen",
+                "1"
             ],
             "guid": "k5v~gXPygw",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
             "tags": [
-                "vocalwechsel"
+                "vokalwechsel"
             ]
         },
         {
@@ -644,12 +682,13 @@
                 "isst",
                 "essen",
                 "esst",
-                "essen"
+                "essen",
+                "1"
             ],
             "guid": "jFkOnIWa58",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
             "tags": [
-                "vocalwechsel"
+                "vokalwechsel"
             ]
         },
         {
@@ -665,7 +704,8 @@
                 "trinkt",
                 "trinken",
                 "trinkt",
-                "trinken"
+                "trinken",
+                ""
             ],
             "guid": "BX#cD$,*{#",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -684,12 +724,13 @@
                 "spricht",
                 "sprechen",
                 "sprecht",
-                "sprechen"
+                "sprechen",
+                "1"
             ],
             "guid": "E-4HR&;r,8",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
             "tags": [
-                "vocalwechsel"
+                "vokalwechsel"
             ]
         },
         {
@@ -705,12 +746,13 @@
                 "schläft",
                 "schlafen",
                 "schlaft",
-                "schlafen"
+                "schlafen",
+                "1"
             ],
             "guid": "I0+j2B/yf-",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
             "tags": [
-                "vocalwechsel"
+                "vokalwechsel"
             ]
         },
         {
@@ -726,12 +768,13 @@
                 "läuft",
                 "laufen",
                 "lauft",
-                "laufen"
+                "laufen",
+                "1"
             ],
             "guid": "Fp.N}{Z`.Z",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
             "tags": [
-                "vocalwechsel"
+                "vokalwechsel"
             ]
         },
         {
@@ -747,12 +790,13 @@
                 "hilft",
                 "helfen",
                 "helft",
-                "helfen"
+                "helfen",
+                "1"
             ],
             "guid": "qmY;t@(A,T",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
             "tags": [
-                "vocalwechsel"
+                "vokalwechsel"
             ]
         },
         {
@@ -768,7 +812,8 @@
                 "findet",
                 "finden",
                 "findet",
-                "finden"
+                "finden",
+                ""
             ],
             "guid": "c|EmntEf#%",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -787,7 +832,8 @@
                 "denkt",
                 "denken",
                 "denkt",
-                "denken"
+                "denken",
+                ""
             ],
             "guid": "k#h`=vuH@>",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -806,7 +852,8 @@
                 "bringt",
                 "bringen",
                 "bringt",
-                "bringen"
+                "bringen",
+                ""
             ],
             "guid": "kIqM/gVTZ]",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -825,7 +872,8 @@
                 "kauft",
                 "kaufen",
                 "kauft",
-                "kaufen"
+                "kaufen",
+                ""
             ],
             "guid": "idPSdjp?-|",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -844,7 +892,8 @@
                 "lernt",
                 "lernen",
                 "lernt",
-                "lernen"
+                "lernen",
+                ""
             ],
             "guid": "P$o}Ag1zge",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -863,7 +912,8 @@
                 "arbeitet",
                 "arbeiten",
                 "arbeitet",
-                "arbeiten"
+                "arbeiten",
+                ""
             ],
             "guid": "CRU!zG50M.",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -882,7 +932,8 @@
                 "macht",
                 "machen",
                 "macht",
-                "machen"
+                "machen",
+                ""
             ],
             "guid": "M>%3CKm[$n",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -901,7 +952,8 @@
                 "kommt an",
                 "kommen an",
                 "kommt an",
-                "kommen an"
+                "kommen an",
+                ""
             ],
             "guid": "y~Mx0me+jB",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -920,7 +972,8 @@
                 "steht auf",
                 "stehen auf",
                 "steht auf",
-                "stehen auf"
+                "stehen auf",
+                ""
             ],
             "guid": "wE.?s@%a+R",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -939,158 +992,12 @@
                 "kauft ein",
                 "kaufen ein",
                 "kauft ein",
-                "kaufen ein"
+                "kaufen ein",
+                ""
             ],
             "guid": "E&oL0QODAQ",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
             "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "treffen",
-                "to meet",
-                "ist",
-                "treffend",
-                "getroffen",
-                "treffe",
-                "triffst",
-                "trifft",
-                "treffen",
-                "trefft",
-                "treffen"
-            ],
-            "guid": "BVuxarRkxr",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": [
-                "vocalwechsel"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "lesen",
-                "to read",
-                "hat",
-                "lesend",
-                "gelesen",
-                "lese",
-                "liest",
-                "liest",
-                "lesen",
-                "lest",
-                "lesen"
-            ],
-            "guid": "rCyK,Ef?(>",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": [
-                "vocalwechsel"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "empfehlen",
-                "to recommend",
-                "hat",
-                "empfehlend",
-                "empfohlen",
-                "empfehle",
-                "empfiehlst",
-                "empfiehlt",
-                "empfehlen",
-                "empfehlt",
-                "empfehlen"
-            ],
-            "guid": "h|[_:}Z-Y&",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": [
-                "vocalwechsel"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "waschen",
-                "to wash",
-                "hat",
-                "waschend",
-                "gewaschen",
-                "wasche",
-                "wäschst",
-                "wäscht",
-                "waschen",
-                "wascht",
-                "waschen"
-            ],
-            "guid": "gk$s%[plrx",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": [
-                "vocalwechsel"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "tragen",
-                "to carry, to wear",
-                "hat",
-                "tragend",
-                "getragen",
-                "trage",
-                "trägst",
-                "trägt",
-                "tragen",
-                "tragt",
-                "tragen"
-            ],
-            "guid": "OdM*fSri,#",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": [
-                "vocalwechsel"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "backen",
-                "to bake",
-                "hat",
-                "backend",
-                "gebacken",
-                "backe",
-                "bäckst",
-                "bäckt",
-                "backen",
-                "backt",
-                "backen"
-            ],
-            "guid": "GzL7z&JtJ9",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": [
-                "vocalwechsel"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "lassen",
-                "to let",
-                "hat",
-                "lassend",
-                "gelassen",
-                "lasse",
-                "lässt",
-                "lässt",
-                "lassen",
-                "lasst",
-                "lassen"
-            ],
-            "guid": "D25=WXH]4n",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": [
-                "vocalwechsel"
-            ]
         },
         {
             "__type__": "Note",
@@ -1105,7 +1012,8 @@
                 "sagt",
                 "sagen",
                 "sagt",
-                "sagen"
+                "sagen",
+                ""
             ],
             "guid": "Ket9K&]2-V",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1124,11 +1032,14 @@
                 "weiß",
                 "wissen",
                 "wisst",
-                "wissen"
+                "wissen",
+                "1"
             ],
             "guid": "o1G_U10Sp6",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
+            "tags": [
+                "irregular"
+            ]
         },
         {
             "__type__": "Note",
@@ -1143,7 +1054,8 @@
                 "steht",
                 "stehen",
                 "steht",
-                "stehen"
+                "stehen",
+                ""
             ],
             "guid": "cOj#yE/TL@",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1162,7 +1074,8 @@
                 "liegt",
                 "liegen",
                 "liegt",
-                "liegen"
+                "liegen",
+                ""
             ],
             "guid": "D6VYWs#Dax",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1181,7 +1094,8 @@
                 "bietet an",
                 "bieten an",
                 "bietet an",
-                "bieten an"
+                "bieten an",
+                ""
             ],
             "guid": "ytObR%a2CM",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1202,12 +1116,14 @@
                 "fängt an",
                 "fangen an",
                 "fangt an",
-                "fangen an"
+                "fangen an",
+                "1"
             ],
             "guid": "fW_!Q%/<GO",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
             "tags": [
-                "trennbar"
+                "trennbar",
+                "vokalwechsel"
             ]
         },
         {
@@ -1223,7 +1139,8 @@
                 "sieht an",
                 "sehen an",
                 "seht an",
-                "sehen an"
+                "sehen an",
+                ""
             ],
             "guid": "Dzf!I]49R>",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1244,7 +1161,8 @@
                 "sieht aus",
                 "sehen aus",
                 "seht aus",
-                "sehen aus"
+                "sehen aus",
+                ""
             ],
             "guid": "m,RG=2Z;C_",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1265,7 +1183,8 @@
                 "betrifft",
                 "betreffen",
                 "betrifft",
-                "betreffen"
+                "betreffen",
+                ""
             ],
             "guid": "g1rKI/](q-",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1284,7 +1203,8 @@
                 "bedeutet",
                 "bedeuten",
                 "bedeutet",
-                "bedeuten"
+                "bedeuten",
+                ""
             ],
             "guid": "c_o[^W>]4}",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1303,7 +1223,8 @@
                 "beginnt",
                 "beginnen",
                 "beginnt",
-                "beginnen"
+                "beginnen",
+                ""
             ],
             "guid": "Bc]JRM2ITp",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1322,7 +1243,8 @@
                 "bekommt",
                 "bekommen",
                 "bekommt",
-                "bekommen"
+                "bekommen",
+                ""
             ],
             "guid": "dt#Us{l37`",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1341,7 +1263,8 @@
                 "besteht",
                 "bestehen",
                 "besteht",
-                "bestehen"
+                "bestehen",
+                ""
             ],
             "guid": "G+ZM3L=@+d",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1360,7 +1283,8 @@
                 "bietet",
                 "bieten",
                 "bietet",
-                "bieten"
+                "bieten",
+                ""
             ],
             "guid": "Aa.TCoi654",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1379,7 +1303,8 @@
                 "bildet",
                 "bilden",
                 "bildet",
-                "bilden"
+                "bilden",
+                ""
             ],
             "guid": "OX@%]P)^5L",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1398,7 +1323,8 @@
                 "braucht",
                 "brauchen",
                 "braucht",
-                "brauchen"
+                "brauchen",
+                ""
             ],
             "guid": "e:SC:!J++>",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1417,7 +1343,8 @@
                 "stellt dar",
                 "stellen dar",
                 "stellt dar",
-                "stellen dar"
+                "stellen dar",
+                ""
             ],
             "guid": "D]vsS~^q{{",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1438,7 +1365,8 @@
                 "entspricht",
                 "entsprechen",
                 "entsprecht",
-                "entsprechen"
+                "entsprechen",
+                ""
             ],
             "guid": "i>q2%m;|]c",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1457,7 +1385,8 @@
                 "entsteht",
                 "entstehen",
                 "entsteht",
-                "entstehen"
+                "entstehen",
+                ""
             ],
             "guid": "ON!6O}~Ynn",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1476,7 +1405,8 @@
                 "entwickelt",
                 "entwickeln",
                 "entwickelt",
-                "entwickeln"
+                "entwickeln",
+                ""
             ],
             "guid": "Jkxn&Be1<K",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1495,7 +1425,8 @@
                 "ergibt",
                 "ergeben",
                 "ergebt",
-                "ergeben"
+                "ergeben",
+                ""
             ],
             "guid": "br)1tEREco",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1514,7 +1445,8 @@
                 "erhält",
                 "erhalten",
                 "erhaltet",
-                "erhalten"
+                "erhalten",
+                ""
             ],
             "guid": "C%(~l.j;>m",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1533,7 +1465,8 @@
                 "erkennt",
                 "erkennen",
                 "erkennt",
-                "erkennen"
+                "erkennen",
+                ""
             ],
             "guid": "ET&!UD03A+",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1552,7 +1485,8 @@
                 "erscheint",
                 "erscheinen",
                 "erscheint",
-                "erscheinen"
+                "erscheinen",
+                ""
             ],
             "guid": "D;*QK7,fO6",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1571,7 +1505,8 @@
                 "erinnert",
                 "erinnern",
                 "erinnert",
-                "erinnern"
+                "erinnern",
+                ""
             ],
             "guid": "M@Engtk)Oz",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1590,7 +1525,8 @@
                 "erklärt",
                 "erklären",
                 "erklärt",
-                "erklären"
+                "erklären",
+                ""
             ],
             "guid": "O4g~k%7bZH",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1609,7 +1545,8 @@
                 "erreicht",
                 "erreichen",
                 "erreicht",
-                "erreichen"
+                "erreichen",
+                ""
             ],
             "guid": "N<T]tLG6ky",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1628,7 +1565,8 @@
                 "erwartet",
                 "erwarten",
                 "erwartet",
-                "erwarten"
+                "erwarten",
+                ""
             ],
             "guid": "pR_pbKZjB.",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1647,7 +1585,8 @@
                 "erzählt",
                 "erzählen",
                 "erzählt",
-                "erzählen"
+                "erzählen",
+                ""
             ],
             "guid": "qta5daUxnI",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1666,11 +1605,14 @@
                 "fällt",
                 "fallen",
                 "fallt",
-                "fallen"
+                "fallen",
+                "1"
             ],
             "guid": "x;QI]E@eU_",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
+            "tags": [
+                "vokalwechsel"
+            ]
         },
         {
             "__type__": "Note",
@@ -1685,7 +1627,8 @@
                 "fehlt",
                 "fehlen",
                 "fehlt",
-                "fehlen"
+                "fehlen",
+                ""
             ],
             "guid": "H^V}M$&t/m",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1704,7 +1647,8 @@
                 "folgt",
                 "folgen",
                 "folgt",
-                "folgen"
+                "folgen",
+                ""
             ],
             "guid": "pL,HI91&BR",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1723,7 +1667,8 @@
                 "fragt",
                 "fragen",
                 "fragt",
-                "fragen"
+                "fragen",
+                ""
             ],
             "guid": "JXM8,%6s`y",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1742,7 +1687,8 @@
                 "fühlt",
                 "fühlen",
                 "fühlt",
-                "fühlen"
+                "fühlen",
+                ""
             ],
             "guid": "F_BUL]^$]M",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1761,7 +1707,8 @@
                 "führt",
                 "führen",
                 "führt",
-                "führen"
+                "führen",
+                ""
             ],
             "guid": "u]y|1J#{y",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1780,7 +1727,8 @@
                 "gehört",
                 "gehören",
                 "gehört",
-                "gehören"
+                "gehören",
+                ""
             ],
             "guid": "tCk*1[62|J",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1799,11 +1747,14 @@
                 "gilt",
                 "gelten",
                 "geltet",
-                "gelten"
+                "gelten",
+                "1"
             ],
             "guid": "L5BQh-yA1I",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
+            "tags": [
+                "vokalwechsel"
+            ]
         },
         {
             "__type__": "Note",
@@ -1818,7 +1769,8 @@
                 "gewinnt",
                 "gewinnen",
                 "gewinnt",
-                "gewinnen"
+                "gewinnen",
+                ""
             ],
             "guid": "O[J[]jc.F~",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1837,7 +1789,8 @@
                 "glaubt",
                 "glauben",
                 "glaubt",
-                "glauben"
+                "glauben",
+                ""
             ],
             "guid": "L!2^raOB*k",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1856,11 +1809,14 @@
                 "hält",
                 "halten",
                 "haltet",
-                "halten"
+                "halten",
+                "1"
             ],
             "guid": "l2ELP6+Ab5",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
+            "tags": [
+                "vokalwechsel"
+            ]
         },
         {
             "__type__": "Note",
@@ -1875,7 +1831,8 @@
                 "handelt",
                 "handeln",
                 "handelt",
-                "handeln"
+                "handeln",
+                ""
             ],
             "guid": "nuf|ScukRq",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1894,7 +1851,8 @@
                 "heißt",
                 "heißen",
                 "heißt",
-                "heißen"
+                "heißen",
+                ""
             ],
             "guid": "NbjqfP{T19",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1913,7 +1871,8 @@
                 "interessiert",
                 "interessieren",
                 "interessiert",
-                "interessieren"
+                "interessieren",
+                ""
             ],
             "guid": "t<TFo81KHr",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1932,7 +1891,8 @@
                 "kennt",
                 "kennen",
                 "kennt",
-                "kennen"
+                "kennen",
+                ""
             ],
             "guid": "L#eo#]PNpm",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1951,7 +1911,8 @@
                 "lebt",
                 "leben",
                 "lebt",
-                "leben"
+                "leben",
+                ""
             ],
             "guid": "Q%CaJ~mfHq",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1970,7 +1931,8 @@
                 "legt",
                 "legen",
                 "legt",
-                "legen"
+                "legen",
+                ""
             ],
             "guid": "j{Xo-%3?AS",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1989,7 +1951,8 @@
                 "meint",
                 "meinen",
                 "meint",
-                "meinen"
+                "meinen",
+                ""
             ],
             "guid": "p^|fqQw#)%",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -2008,7 +1971,8 @@
                 "nennt",
                 "nennen",
                 "nennt",
-                "nennen"
+                "nennen",
+                ""
             ],
             "guid": "vf/d6Y8%_I",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -2027,7 +1991,8 @@
                 "redet",
                 "reden",
                 "redet",
-                "reden"
+                "reden",
+                ""
             ],
             "guid": "g]8L!v#ZFg",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -2046,7 +2011,8 @@
                 "schafft",
                 "schaffen",
                 "schafft",
-                "schaffen"
+                "schaffen",
+                ""
             ],
             "guid": "n=R.X!JX%$",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -2065,7 +2031,8 @@
                 "scheint",
                 "scheinen",
                 "scheint",
-                "scheinen"
+                "scheinen",
+                ""
             ],
             "guid": "z&)l7UBK<b",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -2084,7 +2051,8 @@
                 "schließt",
                 "schließen",
                 "schließt",
-                "schließen"
+                "schließen",
+                ""
             ],
             "guid": "j/&gTE8*jw",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -2103,7 +2071,8 @@
                 "schreibt",
                 "schreiben",
                 "schreibt",
-                "schreiben"
+                "schreiben",
+                ""
             ],
             "guid": "c.Fxm`8~!2",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -2122,7 +2091,8 @@
                 "setzt",
                 "setzen",
                 "setzt",
-                "setzen"
+                "setzen",
+                ""
             ],
             "guid": "ORVr3>?e2}",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -2141,7 +2111,8 @@
                 "sitzt",
                 "sitzen",
                 "sitzt",
-                "sitzen"
+                "sitzen",
+                ""
             ],
             "guid": "r8vzT?$m<_",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -2160,7 +2131,8 @@
                 "spielt",
                 "spielen",
                 "spielt",
-                "spielen"
+                "spielen",
+                ""
             ],
             "guid": "p}k@70QPWP",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -2179,7 +2151,8 @@
                 "stellt",
                 "stellen",
                 "stellt",
-                "stellen"
+                "stellen",
+                ""
             ],
             "guid": "M8m&$i@P$_",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -2198,7 +2171,8 @@
                 "studiert",
                 "studieren",
                 "studiert",
-                "studieren"
+                "studieren",
+                ""
             ],
             "guid": "Q0K1Y{$%&)",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -2217,7 +2191,8 @@
                 "sucht",
                 "suchen",
                 "sucht",
-                "suchen"
+                "suchen",
+                ""
             ],
             "guid": "N=g1a2}4Y=",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -2236,11 +2211,14 @@
                 "tut",
                 "tun",
                 "tut",
-                "tun"
+                "tun",
+                "1"
             ],
             "guid": "JK0$(aM>@b",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
+            "tags": [
+                "irregular"
+            ]
         },
         {
             "__type__": "Note",
@@ -2255,7 +2233,8 @@
                 "vergeht",
                 "vergehen",
                 "vergeht",
-                "vergehen"
+                "vergehen",
+                ""
             ],
             "guid": "CMidPfT+lu",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -2274,7 +2253,8 @@
                 "verbindet",
                 "verbinden",
                 "verbindet",
-                "verbinden"
+                "verbinden",
+                ""
             ],
             "guid": "GWf6W-HV=r",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -2293,7 +2273,8 @@
                 "vergleicht",
                 "vergleichen",
                 "vergleicht",
-                "vergleichen"
+                "vergleichen",
+                ""
             ],
             "guid": "n|MstNaF*z",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -2312,7 +2293,8 @@
                 "verliert",
                 "verlieren",
                 "verliert",
-                "verlieren"
+                "verlieren",
+                ""
             ],
             "guid": "c?Kp$tXbCx",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -2331,7 +2313,8 @@
                 "versteht",
                 "verstehen",
                 "versteht",
-                "verstehen"
+                "verstehen",
+                ""
             ],
             "guid": "CFpf$/fa?C",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -2350,7 +2333,8 @@
                 "versucht",
                 "versuchen",
                 "versucht",
-                "versuchen"
+                "versuchen",
+                ""
             ],
             "guid": "JCbv^MFDZ3",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -2369,7 +2353,8 @@
                 "stellt vor",
                 "stellen vor",
                 "stellt vor",
-                "stellen vor"
+                "stellen vor",
+                ""
             ],
             "guid": "v0|=8A]SH`",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -2390,7 +2375,8 @@
                 "wartet",
                 "warten",
                 "wartet",
-                "warten"
+                "warten",
+                ""
             ],
             "guid": "OB!$J?]DN/",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -2409,7 +2395,8 @@
                 "wohnt",
                 "wohnen",
                 "wohnt",
-                "wohnen"
+                "wohnen",
+                ""
             ],
             "guid": "jOl;->/6Ft",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -2428,7 +2415,8 @@
                 "zeigt",
                 "zeigen",
                 "zeigt",
-                "zeigen"
+                "zeigen",
+                ""
             ],
             "guid": "s>oI8te#K{",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -2447,11 +2435,166 @@
                 "zieht",
                 "ziehen",
                 "zieht",
-                "ziehen"
+                "ziehen",
+                ""
             ],
             "guid": "m>=%fJF9?Q",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "treffen",
+                "to meet",
+                "ist",
+                "treffend",
+                "getroffen",
+                "treffe",
+                "triffst",
+                "trifft",
+                "treffen",
+                "trefft",
+                "treffen",
+                "1"
+            ],
+            "guid": "BVuxarRkxr",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vokalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "lesen",
+                "to read",
+                "hat",
+                "lesend",
+                "gelesen",
+                "lese",
+                "liest",
+                "liest",
+                "lesen",
+                "lest",
+                "lesen",
+                "1"
+            ],
+            "guid": "rCyK,Ef?(>",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vokalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "empfehlen",
+                "to recommend",
+                "hat",
+                "empfehlend",
+                "empfohlen",
+                "empfehle",
+                "empfiehlst",
+                "empfiehlt",
+                "empfehlen",
+                "empfehlt",
+                "empfehlen",
+                "1"
+            ],
+            "guid": "h|[_:}Z-Y&",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vokalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "waschen",
+                "to wash",
+                "hat",
+                "waschend",
+                "gewaschen",
+                "wasche",
+                "wäschst",
+                "wäscht",
+                "waschen",
+                "wascht",
+                "waschen",
+                "1"
+            ],
+            "guid": "gk$s%[plrx",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vokalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tragen",
+                "to carry, to wear",
+                "hat",
+                "tragend",
+                "getragen",
+                "trage",
+                "trägst",
+                "trägt",
+                "tragen",
+                "tragt",
+                "tragen",
+                "1"
+            ],
+            "guid": "OdM*fSri,#",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vokalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "backen",
+                "to bake",
+                "hat",
+                "backend",
+                "gebacken",
+                "backe",
+                "bäckst",
+                "bäckt",
+                "backen",
+                "backt",
+                "backen",
+                "1"
+            ],
+            "guid": "GzL7z&JtJ9",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vokalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "lassen",
+                "to let",
+                "hat",
+                "lassend",
+                "gelassen",
+                "lasse",
+                "lässt",
+                "lässt",
+                "lassen",
+                "lasst",
+                "lassen",
+                "1"
+            ],
+            "guid": "D25=WXH]4n",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vokalwechsel"
+            ]
         }
     ],
     "reviewLimit": null,
