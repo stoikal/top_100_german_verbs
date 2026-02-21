@@ -1,0 +1,2340 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "7064e0c0-0f37-11f1-a731-f1a8b921d120",
+    "deck_config_uuid": "7064ed2c-0f37-11f1-a731-f1a8b921d120",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "7064ed2c-0f37-11f1-a731-f1a8b921d120",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "easyDaysPercentages": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "fsrsParams5": [],
+            "fsrsParams6": [
+                0.212,
+                1.2931,
+                2.3065,
+                8.2956,
+                6.4133,
+                0.8334,
+                3.0194,
+                0.001,
+                1.8722,
+                0.1666,
+                0.796,
+                1.4835,
+                0.0614,
+                0.2629,
+                1.6483,
+                0.6014,
+                1.8729,
+                0.5425,
+                0.0912,
+                0.0658,
+                0.1542
+            ],
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "1970-01-01",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 16,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "4",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 4
+            },
+            "newGatherPriority": 5,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 40
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "desiredRetention": null,
+    "dyn": 0,
+    "extendNew": 20,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "meine_Notizen::Verben",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    line-height: 1.5;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n\ncode {\n\tfont-weight: 700;\n}\n\ncode::before {\n  content: \"`\";\n}\n\ncode::after {\n  content: \"`\";\n}\n\ntable {\n  border-collapse: collapse;\n}\n\nth, td {\n\tpadding: 4px 8px;\n\tborder-width: 1px;\n\tborder-style: solid;\n}\n\n.text-red {\n color: red !important;\n}",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Liberation Sans",
+                    "id": 1688003299035948061,
+                    "name": "infinitiv",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -7900480696857870618,
+                    "name": "english",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 5929201940775983933,
+                    "name": "partizip_1",
+                    "ord": 2,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -3422915572033996673,
+                    "name": "partizip_2",
+                    "ord": 3,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -6837773204571563425,
+                    "name": "ich",
+                    "ord": 4,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -6975917291006608370,
+                    "name": "du",
+                    "ord": 5,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -1124273644501002823,
+                    "name": "er_sie_es",
+                    "ord": 6,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -2113657934384305998,
+                    "name": "wir",
+                    "ord": 7,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 6590462417363826217,
+                    "name": "ihr",
+                    "ord": 8,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 1265122191561413717,
+                    "name": "sie_Sie",
+                    "ord": 9,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Verben",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0,
+                        3
+                    ]
+                ],
+                [
+                    1,
+                    "all",
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                [
+                    2,
+                    "all",
+                    [
+                        0,
+                        4
+                    ]
+                ],
+                [
+                    3,
+                    "all",
+                    [
+                        0,
+                        6
+                    ]
+                ],
+                [
+                    4,
+                    "all",
+                    [
+                        0,
+                        7
+                    ]
+                ],
+                [
+                    5,
+                    "all",
+                    [
+                        0,
+                        8
+                    ]
+                ],
+                [
+                    6,
+                    "all",
+                    [
+                        0,
+                        9
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{#partizip_2}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>Partizip II</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{partizip_2}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/partizip_2}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "{{infinitiv}}",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -5310240084013495701,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{#partizip_2}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>Partizip II</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/partizip_2}}"
+                },
+                {
+                    "afmt": "{{#partizip_1}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th><span class=\"text-red\">Partizip I</span></th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{partizip_1}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/partizip_1}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -64163215761323039,
+                    "name": "Card 2",
+                    "ord": 1,
+                    "qfmt": "{{#partizip_1}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>\n\n<span class=\"text-red\">Partizip I</span>\n</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/partizip_1}}"
+                },
+                {
+                    "afmt": "{{#ich}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>ich</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{ich}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/ich}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -1634890554944776920,
+                    "name": "Card 3",
+                    "ord": 2,
+                    "qfmt": "{{#ich}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>ich</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/ich}}"
+                },
+                {
+                    "afmt": "{{#er_sie_es}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>er/sie/es</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{er_sie_es}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/er_sie_es}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": 5798953611990909219,
+                    "name": "Card 4",
+                    "ord": 3,
+                    "qfmt": "{{#er_sie_es}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>er/sie/es</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/er_sie_es}}"
+                },
+                {
+                    "afmt": "{{#wir}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>wir</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{wir}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/wir}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -5661346021493920127,
+                    "name": "Card 5",
+                    "ord": 4,
+                    "qfmt": "{{#wir}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>wir</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/wir}}"
+                },
+                {
+                    "afmt": "{{#ihr}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>ihr</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{ihr}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/ihr}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -2638171386782144846,
+                    "name": "Card 6",
+                    "ord": 5,
+                    "qfmt": "{{#ihr}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>ihr</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/ihr}}"
+                },
+                {
+                    "afmt": "{{#sie_Sie}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>sie/Sie</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{sie_Sie}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/sie_Sie}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -7600747913271215006,
+                    "name": "Card 7",
+                    "ord": 6,
+                    "qfmt": "{{#sie_Sie}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>sie/Sie</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/sie_Sie}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "gehen",
+                "",
+                "",
+                "gegangen",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "f|0EA$M|TN",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sein",
+                "",
+                "seiend",
+                "gewesen",
+                "bin",
+                "bist",
+                "ist",
+                "sind",
+                "seid",
+                "sind"
+            ],
+            "guid": "soX<^Gp^i-",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "haben",
+                "",
+                "habend",
+                "gehabt",
+                "habe",
+                "hast",
+                "hat",
+                "haben",
+                "habt",
+                "haben"
+            ],
+            "guid": "d,&_Q=z:Z.",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "werden",
+                "",
+                "",
+                "geworden",
+                "werde",
+                "wirst",
+                "wird",
+                "werden",
+                "werdet",
+                "werden"
+            ],
+            "guid": "s/7w[8?Kxn",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kommen",
+                "",
+                "",
+                "gekommen",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "op$~y,Bz<9",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "fahren",
+                "",
+                "",
+                "gefahren",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "A}v.+6%tDP",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vocalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "bleiben",
+                "",
+                "",
+                "geblieben",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "tCuQjnPXB,",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "geben",
+                "",
+                "",
+                "gegeben",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "l$T~snn:es",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vocalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "nehmen",
+                "",
+                "",
+                "genommen",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "y{9#lt@?vT",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vocalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sehen",
+                "",
+                "",
+                "gesehen",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "k5v~gXPygw",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vocalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "essen",
+                "",
+                "",
+                "gegessen",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "jFkOnIWa58",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vocalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "trinken",
+                "",
+                "",
+                "getrunken",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "BX#cD$,*{#",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sprechen",
+                "",
+                "",
+                "gesprochen",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "E-4HR&;r,8",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vocalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "schlafen",
+                "",
+                "",
+                "geschlafen",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "I0+j2B/yf-",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vocalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "laufen",
+                "",
+                "",
+                "gelaufen",
+                "",
+                "läufst",
+                "läuft",
+                "",
+                "",
+                ""
+            ],
+            "guid": "Fp.N}{Z`.Z",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vocalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "helfen",
+                "",
+                "",
+                "geholfen",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "qmY;t@(A,T",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vocalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "finden",
+                "",
+                "",
+                "gefunden",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "c|EmntEf#%",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "denken",
+                "",
+                "",
+                "gedacht",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "k#h`=vuH@>",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "bringen",
+                "",
+                "",
+                "gebracht",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "kIqM/gVTZ]",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kaufen",
+                "",
+                "",
+                "gekauft",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "idPSdjp?-|",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "lernen",
+                "",
+                "",
+                "gelernt",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "P$o}Ag1zge",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "arbeiten",
+                "",
+                "",
+                "gearbeitet",
+                "",
+                "arbeitest",
+                "arbeitet",
+                "",
+                "",
+                ""
+            ],
+            "guid": "CRU!zG50M.",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "machen",
+                "",
+                "",
+                "gemacht",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "M>%3CKm[$n",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ankommen",
+                "",
+                "ankommend",
+                "angekommen",
+                "komme an",
+                "kommest an",
+                "komme an",
+                "kommen an",
+                "kommt an",
+                "kommen an"
+            ],
+            "guid": "y~Mx0me+jB",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "aufstehen",
+                "",
+                "",
+                "aufgestanden",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "wE.?s@%a+R",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "einkaufen",
+                "",
+                "",
+                "eingekauft",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "E&oL0QODAQ",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "treffen",
+                "",
+                "",
+                "",
+                "",
+                "triffst",
+                "trifft",
+                "",
+                "",
+                ""
+            ],
+            "guid": "BVuxarRkxr",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vocalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "lesen",
+                "",
+                "",
+                "",
+                "",
+                "liest",
+                "liest",
+                "",
+                "",
+                ""
+            ],
+            "guid": "rCyK,Ef?(>",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vocalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "empfehlen",
+                "",
+                "",
+                "",
+                "",
+                "empfiehlst",
+                "empfiehlt",
+                "",
+                "",
+                ""
+            ],
+            "guid": "h|[_:}Z-Y&",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vocalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "waschen",
+                "",
+                "",
+                "",
+                "",
+                "wäschst",
+                "wäscht",
+                "",
+                "",
+                ""
+            ],
+            "guid": "gk$s%[plrx",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vocalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tragen",
+                "",
+                "",
+                "",
+                "",
+                "trägst",
+                "trägt",
+                "",
+                "",
+                ""
+            ],
+            "guid": "OdM*fSri,#",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vocalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "backen",
+                "",
+                "",
+                "",
+                "",
+                "bäckst",
+                "bäckt",
+                "",
+                "",
+                ""
+            ],
+            "guid": "GzL7z&JtJ9",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vocalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "lassen",
+                "to let",
+                "",
+                "",
+                "",
+                "lässt",
+                "lässt",
+                "",
+                "",
+                ""
+            ],
+            "guid": "D25=WXH]4n",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vocalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sagen",
+                "to say",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "Ket9K&]2-V",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "wissen",
+                "to know",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "o1G_U10Sp6",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "stehen",
+                "to stand",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "cOj#yE/TL@",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "liegen",
+                "to lie, to be lying",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "D6VYWs#Dax",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "an·bieten",
+                "to offer",
+                "",
+                "",
+                "",
+                "bietest an",
+                "bietet an",
+                "",
+                "",
+                ""
+            ],
+            "guid": "ytObR%a2CM",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "trennbar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "an·fangen",
+                "to begin",
+                "",
+                "",
+                "",
+                "fängst an",
+                "fängt an",
+                "",
+                "",
+                ""
+            ],
+            "guid": "fW_!Q%/<GO",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "trennbar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "an·sehen",
+                "to look at",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "Dzf!I]49R>",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "trennbar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "aus·sehen",
+                "to look/appear",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "m,RG=2Z;C_",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "trennbar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "be·treffen",
+                "to affect",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "g1rKI/](q-",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "bedeuten",
+                "to mean",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "c_o[^W>]4}",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "beginnen",
+                "to begin",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "Bc]JRM2ITp",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "bekommen",
+                "to get/receive",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "dt#Us{l37`",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "bestehen",
+                "to exist/pass",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "G+ZM3L=@+d",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "bieten",
+                "to offer",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "Aa.TCoi654",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "bilden",
+                "to form",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "OX@%]P)^5L",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "brauchen",
+                "to need",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "e:SC:!J++>",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "dar·stellen",
+                "to depict",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "D]vsS~^q{{",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "trennbar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "entsprechen",
+                "to correspond",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "i>q2%m;|]c",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "entstehen",
+                "to originate",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "ON!6O}~Ynn",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "entwickeln",
+                "to develop",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "Jkxn&Be1<K",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ergeben",
+                "to result in",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "br)1tEREco",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "erhalten",
+                "to receive",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "C%(~l.j;>m",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "erkennen",
+                "to recognize",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "ET&!UD03A+",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "erscheinen",
+                "to appear",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "D;*QK7,fO6",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "erinnern",
+                "to remember",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "M@Engtk)Oz",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "erklären",
+                "to explain",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "O4g~k%7bZH",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "erreichen",
+                "to reach",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "N<T]tLG6ky",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "erwarten",
+                "to expect",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "pR_pbKZjB.",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "erzählen",
+                "to tell/narate",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "qta5daUxnI",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "fallen",
+                "to fall",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "x;QI]E@eU_",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "fehlen",
+                "to be missing",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "H^V}M$&t/m",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "folgen",
+                "to follow",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "pL,HI91&BR",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "fragen",
+                "to ask",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "JXM8,%6s`y",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "fühlen",
+                "to feel",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "F_BUL]^$]M",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "führen",
+                "to lead",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "u]y|1J#{y",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "gehören",
+                "to belong",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "tCk*1[62|J",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "gelten",
+                "to be valid",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "L5BQh-yA1I",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "gewinnen",
+                "to win",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "O[J[]jc.F~",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "glauben",
+                "to believe",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "L!2^raOB*k",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "halten",
+                "to hold/stop",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "l2ELP6+Ab5",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "handeln",
+                "to deal/act",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "nuf|ScukRq",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "heißen",
+                "to be called",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "NbjqfP{T19",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "interessieren",
+                "to interest",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "t<TFo81KHr",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kennen",
+                "to know (people)",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "L#eo#]PNpm",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "leben",
+                "to live",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "Q%CaJ~mfHq",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "legen",
+                "to lay",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "j{Xo-%3?AS",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "meinen",
+                "to think/mean",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "p^|fqQw#)%",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "nennen",
+                "to name",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "vf/d6Y8%_I",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "reden",
+                "to talk",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "g]8L!v#ZFg",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "schaffen",
+                "to manage, create",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "n=R.X!JX%$",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "scheinen",
+                "to shine, seem",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "z&)l7UBK<b",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "schließen",
+                "to close",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "j/&gTE8*jw",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "schreiben",
+                "to write",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "c.Fxm`8~!2",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "setzen",
+                "to set, put",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "ORVr3>?e2}",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sitzen",
+                "to sit",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "r8vzT?$m<_",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "spielen",
+                "to play",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "p}k@70QPWP",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "stellen",
+                "to place, set",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "M8m&$i@P$_",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "studieren",
+                "to study",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "Q0K1Y{$%&)",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "suchen",
+                "to search",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "N=g1a2}4Y=",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tun",
+                "to do",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "JK0$(aM>@b",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "vergehen",
+                "to elapse",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "CMidPfT+lu",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "verbinden",
+                "to connect",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "GWf6W-HV=r",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "vergleichen",
+                "to compare",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "n|MstNaF*z",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "verlieren",
+                "to lose",
+                "",
+                "verloren",
+                "verlier(e)",
+                "verlierst",
+                "verliert",
+                "verlieren",
+                "verliert",
+                ""
+            ],
+            "guid": "c?Kp$tXbCx",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "verstehen",
+                "to understand",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "CFpf$/fa?C",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "versuchen",
+                "to try",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "JCbv^MFDZ3",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "vor·stellen",
+                "to introduce",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "v0|=8A]SH`",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "trennbar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "warten",
+                "to wait",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "OB!$J?]DN/",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "wohnen",
+                "to live",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "jOl;->/6Ft",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "zeigen",
+                "to show",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "s>oI8te#K{",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ziehen",
+                "to pull, move",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "m>=%fJF9?Q",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
