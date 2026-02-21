@@ -800,15 +800,15 @@
             "__type__": "Note",
             "fields": [
                 "lernen",
-                "",
-                "",
+                "to learn",
+                "lernend",
                 "gelernt",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
+                "lerne",
+                "lernst",
+                "lernt",
+                "lernen",
+                "lernt",
+                "lernen"
             ],
             "guid": "P$o}Ag1zge",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -818,15 +818,15 @@
             "__type__": "Note",
             "fields": [
                 "arbeiten",
-                "",
-                "",
+                "to work",
+                "arbeitend",
                 "gearbeitet",
-                "",
+                "arbeite",
                 "arbeitest",
                 "arbeitet",
-                "",
-                "",
-                ""
+                "arbeiten",
+                "arbeitet",
+                "arbeiten"
             ],
             "guid": "CRU!zG50M.",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -836,15 +836,15 @@
             "__type__": "Note",
             "fields": [
                 "machen",
-                "",
-                "",
+                "to do, to make",
+                "machend",
                 "gemacht",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
+                "mache",
+                "machst",
+                "macht",
+                "machen",
+                "macht",
+                "machen"
             ],
             "guid": "M>%3CKm[$n",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -854,12 +854,12 @@
             "__type__": "Note",
             "fields": [
                 "ankommen",
-                "",
+                "to arrive",
                 "ankommend",
                 "angekommen",
                 "komme an",
-                "kommest an",
-                "komme an",
+                "kommst an",
+                "kommt an",
                 "kommen an",
                 "kommt an",
                 "kommen an"
@@ -872,15 +872,15 @@
             "__type__": "Note",
             "fields": [
                 "aufstehen",
-                "",
-                "",
+                "to get up",
+                "aufstehend",
                 "aufgestanden",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
+                "stehe auf",
+                "stehst auf",
+                "steht auf",
+                "stehen auf",
+                "steht auf",
+                "stehen auf"
             ],
             "guid": "wE.?s@%a+R",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -890,15 +890,15 @@
             "__type__": "Note",
             "fields": [
                 "einkaufen",
-                "",
-                "",
+                "to shop, to buy",
+                "einkaufend",
                 "eingekauft",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
+                "kaufe ein",
+                "kaufst ein",
+                "kauft ein",
+                "kaufen ein",
+                "kauft ein",
+                "kaufen ein"
             ],
             "guid": "E&oL0QODAQ",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -908,15 +908,15 @@
             "__type__": "Note",
             "fields": [
                 "treffen",
-                "",
-                "",
-                "",
-                "",
+                "to meet",
+                "treffend",
+                "getroffen",
+                "treffe",
                 "triffst",
                 "trifft",
-                "",
-                "",
-                ""
+                "treffen",
+                "trefft",
+                "treffen"
             ],
             "guid": "BVuxarRkxr",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -928,15 +928,15 @@
             "__type__": "Note",
             "fields": [
                 "lesen",
-                "",
-                "",
-                "",
-                "",
+                "to read",
+                "lesend",
+                "gelesen",
+                "lese",
                 "liest",
                 "liest",
-                "",
-                "",
-                ""
+                "lesen",
+                "lest",
+                "lesen"
             ],
             "guid": "rCyK,Ef?(>",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -948,15 +948,15 @@
             "__type__": "Note",
             "fields": [
                 "empfehlen",
-                "",
-                "",
-                "",
-                "",
+                "to recommend",
+                "empfehlend",
+                "empfohlen",
+                "empfehle",
                 "empfiehlst",
                 "empfiehlt",
-                "",
-                "",
-                ""
+                "empfehlen",
+                "empfehlt",
+                "empfehlen"
             ],
             "guid": "h|[_:}Z-Y&",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -968,15 +968,15 @@
             "__type__": "Note",
             "fields": [
                 "waschen",
-                "",
-                "",
-                "",
-                "",
+                "to wash",
+                "waschend",
+                "gewaschen",
+                "wasche",
                 "wäschst",
                 "wäscht",
-                "",
-                "",
-                ""
+                "waschen",
+                "wascht",
+                "waschen"
             ],
             "guid": "gk$s%[plrx",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -988,15 +988,15 @@
             "__type__": "Note",
             "fields": [
                 "tragen",
-                "",
-                "",
-                "",
-                "",
+                "to carry, to wear",
+                "tragend",
+                "getragen",
+                "trage",
                 "trägst",
                 "trägt",
-                "",
-                "",
-                ""
+                "tragen",
+                "tragt",
+                "tragen"
             ],
             "guid": "OdM*fSri,#",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1008,15 +1008,15 @@
             "__type__": "Note",
             "fields": [
                 "backen",
-                "",
-                "",
-                "",
-                "",
+                "to bake",
+                "backend",
+                "gebacken",
+                "backe",
                 "bäckst",
                 "bäckt",
-                "",
-                "",
-                ""
+                "backen",
+                "backt",
+                "backen"
             ],
             "guid": "GzL7z&JtJ9",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1029,14 +1029,14 @@
             "fields": [
                 "lassen",
                 "to let",
-                "",
-                "",
-                "",
+                "lassend",
+                "gelassen",
+                "lasse",
                 "lässt",
                 "lässt",
-                "",
-                "",
-                ""
+                "lassen",
+                "lasst",
+                "lassen"
             ],
             "guid": "D25=WXH]4n",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1049,14 +1049,14 @@
             "fields": [
                 "sagen",
                 "to say",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
+                "sagend",
+                "gesagt",
+                "sage",
+                "sagst",
+                "sagt",
+                "sagen",
+                "sagt",
+                "sagen"
             ],
             "guid": "Ket9K&]2-V",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
@@ -1067,18 +1067,114 @@
             "fields": [
                 "wissen",
                 "to know",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
+                "wissend",
+                "gewusst",
+                "weiß",
+                "weißt",
+                "weiß",
+                "wissen",
+                "wisst",
+                "wissen"
             ],
             "guid": "o1G_U10Sp6",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "stehen",
+                "to stand",
+                "stehend",
+                "gestanden",
+                "stehe",
+                "stehst",
+                "steht",
+                "stehen",
+                "steht",
+                "stehen"
+            ],
+            "guid": "cOj#yE/TL@",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "liegen",
+                "to lie, to be lying",
+                "liegend",
+                "gelegen",
+                "liege",
+                "liegst",
+                "liegt",
+                "liegen",
+                "liegt",
+                "liegen"
+            ],
+            "guid": "D6VYWs#Dax",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "an·bieten",
+                "to offer",
+                "anbietend",
+                "angeboten",
+                "biete an",
+                "bietest an",
+                "bietet an",
+                "bieten an",
+                "bietet an",
+                "bieten an"
+            ],
+            "guid": "ytObR%a2CM",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "trennbar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "an·fangen",
+                "to begin",
+                "anfangend",
+                "angefangen",
+                "fange an",
+                "fängst an",
+                "fängt an",
+                "fangen an",
+                "fangt an",
+                "fangen an"
+            ],
+            "guid": "fW_!Q%/<GO",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "trennbar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "an·sehen",
+                "to look at",
+                "ansehend",
+                "angesehen",
+                "sehe an",
+                "siehst an",
+                "sieht an",
+                "sehen an",
+                "seht an",
+                "sehen an"
+            ],
+            "guid": "Dzf!I]49R>",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "trennbar"
+            ]
         },
         {
             "__type__": "Note",
