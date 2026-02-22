@@ -2365,6 +2365,156 @@
             "tags": [
                 "vokalwechsel"
             ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "können",
+                "can, to be able to",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "p79K6l3|X~",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "modalverb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "müssen",
+                "must, to have to",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "ed7A1D~ls-",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sollen",
+                "should, ought to",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "snDfk^M$ZK",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "modalverb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "wollen",
+                "to want",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "l4CHgXs9ND",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "modalverb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "dürfen",
+                "may, to be allowed",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "pVnW^k5AF9",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "modalverb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "mögen",
+                "to like",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "8LlO^k2Ao5",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "modalverb"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "interessieren",
+                "interest",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "nCvt^kJBtR",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
         }
     ],
     "reviewLimit": null,
