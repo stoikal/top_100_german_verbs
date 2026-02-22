@@ -117,10 +117,25 @@
                     "collapsed": false,
                     "description": "",
                     "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 2960033643630788458,
+                    "name": "number",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
                     "font": "Liberation Sans",
                     "id": 1688003299035948061,
                     "name": "infinitiv",
-                    "ord": 0,
+                    "ord": 1,
                     "plainText": false,
                     "preventDeletion": false,
                     "rtl": false,
@@ -135,7 +150,7 @@
                     "font": "Arial",
                     "id": -7900480696857870618,
                     "name": "english",
-                    "ord": 1,
+                    "ord": 2,
                     "plainText": false,
                     "preventDeletion": false,
                     "rtl": false,
@@ -150,7 +165,7 @@
                     "font": "Arial",
                     "id": 122070771300227515,
                     "name": "perfekt_hilfsverb",
-                    "ord": 2,
+                    "ord": 3,
                     "plainText": false,
                     "preventDeletion": false,
                     "rtl": false,
@@ -165,7 +180,7 @@
                     "font": "Arial",
                     "id": 5929201940775983933,
                     "name": "partizip_1",
-                    "ord": 3,
+                    "ord": 4,
                     "plainText": false,
                     "preventDeletion": false,
                     "rtl": false,
@@ -180,7 +195,7 @@
                     "font": "Arial",
                     "id": -3422915572033996673,
                     "name": "partizip_2",
-                    "ord": 4,
+                    "ord": 5,
                     "plainText": false,
                     "preventDeletion": false,
                     "rtl": false,
@@ -195,7 +210,7 @@
                     "font": "Arial",
                     "id": -6837773204571563425,
                     "name": "präsens_ich",
-                    "ord": 5,
+                    "ord": 6,
                     "plainText": false,
                     "preventDeletion": false,
                     "rtl": false,
@@ -210,7 +225,7 @@
                     "font": "Arial",
                     "id": -6975917291006608370,
                     "name": "präsens_du",
-                    "ord": 6,
+                    "ord": 7,
                     "plainText": false,
                     "preventDeletion": false,
                     "rtl": false,
@@ -225,7 +240,7 @@
                     "font": "Arial",
                     "id": -1124273644501002823,
                     "name": "präsens_er_sie_es",
-                    "ord": 7,
+                    "ord": 8,
                     "plainText": false,
                     "preventDeletion": false,
                     "rtl": false,
@@ -240,7 +255,7 @@
                     "font": "Arial",
                     "id": -2113657934384305998,
                     "name": "präsens_wir",
-                    "ord": 8,
+                    "ord": 9,
                     "plainText": false,
                     "preventDeletion": false,
                     "rtl": false,
@@ -255,7 +270,7 @@
                     "font": "Arial",
                     "id": 6590462417363826217,
                     "name": "präsens_ihr",
-                    "ord": 9,
+                    "ord": 10,
                     "plainText": false,
                     "preventDeletion": false,
                     "rtl": false,
@@ -270,7 +285,7 @@
                     "font": "Arial",
                     "id": 1265122191561413717,
                     "name": "präsens_sie_Sie",
-                    "ord": 10,
+                    "ord": 11,
                     "plainText": false,
                     "preventDeletion": false,
                     "rtl": false,
@@ -285,7 +300,7 @@
                     "font": "Arial",
                     "id": 8137050417720424513,
                     "name": "irregular",
-                    "ord": 11,
+                    "ord": 12,
                     "plainText": false,
                     "preventDeletion": false,
                     "rtl": false,
@@ -304,81 +319,81 @@
                     0,
                     "any",
                     [
-                        0
+                        1
                     ]
                 ],
                 [
                     1,
                     "any",
                     [
-                        1
+                        2
                     ]
                 ],
                 [
                     2,
                     "all",
                     [
-                        0,
-                        2,
-                        4
+                        1,
+                        3,
+                        5
                     ]
                 ],
                 [
                     3,
                     "all",
                     [
-                        0,
-                        5,
-                        11
+                        1,
+                        6,
+                        12
                     ]
                 ],
                 [
                     4,
                     "all",
                     [
-                        0,
-                        6,
-                        11
+                        1,
+                        7,
+                        12
                     ]
                 ],
                 [
                     5,
                     "all",
                     [
-                        0,
-                        7,
-                        11
+                        1,
+                        8,
+                        12
                     ]
                 ],
                 [
                     6,
                     "all",
                     [
-                        0,
-                        8,
-                        11
+                        1,
+                        9,
+                        12
                     ]
                 ],
                 [
                     7,
                     "all",
                     [
-                        0,
-                        9,
-                        11
+                        1,
+                        10,
+                        12
                     ]
                 ],
                 [
                     8,
                     "all",
                     [
-                        0,
-                        10,
-                        11
+                        1,
+                        11,
+                        12
                     ]
                 ]
             ],
-            "sortf": 0,
+            "sortf": 1,
             "tmpls": [
                 {
                     "afmt": "{{infinitiv}}\n\n<hr id=\"answer\">\n\n{{english}}",
@@ -496,26 +511,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "gehen",
-                "to go",
-                "ist",
-                "gehend",
-                "gegangen",
-                "gehe",
-                "gehst",
-                "geht",
-                "gehen",
-                "geht",
-                "gehen",
-                ""
-            ],
-            "guid": "f|0EA$M|TN",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
+                "",
                 "sein",
                 "to be",
                 "ist",
@@ -538,6 +534,7 @@
         {
             "__type__": "Note",
             "fields": [
+                "",
                 "haben",
                 "to have",
                 "hat",
@@ -560,6 +557,7 @@
         {
             "__type__": "Note",
             "fields": [
+                "",
                 "werden",
                 "to become",
                 "hat",
@@ -582,26 +580,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "kommen",
-                "to come",
-                "ist",
-                "kommend",
-                "gekommen",
-                "komme",
-                "kommst",
-                "kommt",
-                "kommen",
-                "kommt",
-                "kommen",
-                ""
-            ],
-            "guid": "op$~y,Bz<9",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
+                "",
                 "fahren",
                 "to drive, to travel",
                 "ist",
@@ -624,26 +603,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "bleiben",
-                "to stay",
-                "ist",
-                "bleibend",
-                "geblieben",
-                "bleibe",
-                "bleibst",
-                "bleibt",
-                "bleiben",
-                "bleibt",
-                "bleiben",
-                ""
-            ],
-            "guid": "tCuQjnPXB,",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
+                "",
                 "geben",
                 "to give",
                 "hat",
@@ -666,6 +626,7 @@
         {
             "__type__": "Note",
             "fields": [
+                "",
                 "nehmen",
                 "to take",
                 "hat",
@@ -688,6 +649,7 @@
         {
             "__type__": "Note",
             "fields": [
+                "",
                 "sehen",
                 "to see",
                 "hat",
@@ -710,48 +672,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "essen",
-                "to eat",
-                "hat",
-                "essend",
-                "gegessen",
-                "esse",
-                "isst",
-                "isst",
-                "essen",
-                "esst",
-                "essen",
-                "1"
-            ],
-            "guid": "jFkOnIWa58",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": [
-                "vokalwechsel"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "trinken",
-                "to drink",
-                "hat",
-                "trinkend",
-                "getrunken",
-                "trinke",
-                "trinkst",
-                "trinkt",
-                "trinken",
-                "trinkt",
-                "trinken",
-                ""
-            ],
-            "guid": "BX#cD$,*{#",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
+                "",
                 "sprechen",
                 "to speak",
                 "hat",
@@ -774,28 +695,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "schlafen",
-                "to sleep",
-                "hat",
-                "schlafend",
-                "geschlafen",
-                "schlafe",
-                "schläfst",
-                "schläft",
-                "schlafen",
-                "schlaft",
-                "schlafen",
-                "1"
-            ],
-            "guid": "I0+j2B/yf-",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": [
-                "vokalwechsel"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
+                "",
                 "laufen",
                 "to run",
                 "ist",
@@ -818,6 +718,7 @@
         {
             "__type__": "Note",
             "fields": [
+                "",
                 "helfen",
                 "to help",
                 "hat",
@@ -840,226 +741,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "finden",
-                "to find",
-                "hat",
-                "findend",
-                "gefunden",
-                "finde",
-                "findest",
-                "findet",
-                "finden",
-                "findet",
-                "finden",
-                ""
-            ],
-            "guid": "c|EmntEf#%",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "denken",
-                "to think",
-                "hat",
-                "denkend",
-                "gedacht",
-                "denke",
-                "denkst",
-                "denkt",
-                "denken",
-                "denkt",
-                "denken",
-                ""
-            ],
-            "guid": "k#h`=vuH@>",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "bringen",
-                "to bring",
-                "hat",
-                "bringend",
-                "gebracht",
-                "bringe",
-                "bringst",
-                "bringt",
-                "bringen",
-                "bringt",
-                "bringen",
-                ""
-            ],
-            "guid": "kIqM/gVTZ]",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "kaufen",
-                "to buy",
-                "hat",
-                "kaufend",
-                "gekauft",
-                "kaufe",
-                "kaufst",
-                "kauft",
-                "kaufen",
-                "kauft",
-                "kaufen",
-                ""
-            ],
-            "guid": "idPSdjp?-|",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "lernen",
-                "to learn",
-                "hat",
-                "lernend",
-                "gelernt",
-                "lerne",
-                "lernst",
-                "lernt",
-                "lernen",
-                "lernt",
-                "lernen",
-                ""
-            ],
-            "guid": "P$o}Ag1zge",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "arbeiten",
-                "to work",
-                "hat",
-                "arbeitend",
-                "gearbeitet",
-                "arbeite",
-                "arbeitest",
-                "arbeitet",
-                "arbeiten",
-                "arbeitet",
-                "arbeiten",
-                ""
-            ],
-            "guid": "CRU!zG50M.",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "machen",
-                "to do, to make",
-                "hat",
-                "machend",
-                "gemacht",
-                "mache",
-                "machst",
-                "macht",
-                "machen",
-                "macht",
-                "machen",
-                ""
-            ],
-            "guid": "M>%3CKm[$n",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "ankommen",
-                "to arrive",
-                "ist",
-                "ankommend",
-                "angekommen",
-                "komme an",
-                "kommst an",
-                "kommt an",
-                "kommen an",
-                "kommt an",
-                "kommen an",
-                ""
-            ],
-            "guid": "y~Mx0me+jB",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "aufstehen",
-                "to get up",
-                "ist",
-                "aufstehend",
-                "aufgestanden",
-                "stehe auf",
-                "stehst auf",
-                "steht auf",
-                "stehen auf",
-                "steht auf",
-                "stehen auf",
-                ""
-            ],
-            "guid": "wE.?s@%a+R",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "einkaufen",
-                "to shop, to buy",
-                "hat",
-                "einkaufend",
-                "eingekauft",
-                "kaufe ein",
-                "kaufst ein",
-                "kauft ein",
-                "kaufen ein",
-                "kauft ein",
-                "kaufen ein",
-                ""
-            ],
-            "guid": "E&oL0QODAQ",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "sagen",
-                "to say",
-                "hat",
-                "sagend",
-                "gesagt",
-                "sage",
-                "sagst",
-                "sagt",
-                "sagen",
-                "sagt",
-                "sagen",
-                ""
-            ],
-            "guid": "Ket9K&]2-V",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
+                "",
                 "wissen",
                 "to know",
                 "hat",
@@ -1082,68 +764,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "stehen",
-                "to stand",
-                "hat",
-                "stehend",
-                "gestanden",
-                "stehe",
-                "stehst",
-                "steht",
-                "stehen",
-                "steht",
-                "stehen",
-                ""
-            ],
-            "guid": "cOj#yE/TL@",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "liegen",
-                "to lie, to be lying",
-                "hat",
-                "liegend",
-                "gelegen",
-                "liege",
-                "liegst",
-                "liegt",
-                "liegen",
-                "liegt",
-                "liegen",
-                ""
-            ],
-            "guid": "D6VYWs#Dax",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "an·bieten",
-                "to offer",
-                "hat",
-                "anbietend",
-                "angeboten",
-                "biete an",
-                "bietest an",
-                "bietet an",
-                "bieten an",
-                "bietet an",
-                "bieten an",
-                ""
-            ],
-            "guid": "ytObR%a2CM",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": [
-                "trennbar"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
+                "80",
                 "an·fangen",
                 "to begin",
                 "hat",
@@ -1167,472 +788,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "an·sehen",
-                "to look at",
-                "hat",
-                "ansehend",
-                "angesehen",
-                "sehe an",
-                "siehst an",
-                "sieht an",
-                "sehen an",
-                "seht an",
-                "sehen an",
-                ""
-            ],
-            "guid": "Dzf!I]49R>",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": [
-                "trennbar"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "aus·sehen",
-                "to look/appear",
-                "hat",
-                "aussehend",
-                "ausgesehen",
-                "sehe aus",
-                "siehst aus",
-                "sieht aus",
-                "sehen aus",
-                "seht aus",
-                "sehen aus",
-                ""
-            ],
-            "guid": "m,RG=2Z;C_",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": [
-                "trennbar"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "be·treffen",
-                "to affect",
-                "hat",
-                "betreffend",
-                "betroffen",
-                "betreffe",
-                "betreffst",
-                "betrifft",
-                "betreffen",
-                "betrifft",
-                "betreffen",
-                ""
-            ],
-            "guid": "g1rKI/](q-",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "bedeuten",
-                "to mean",
-                "hat",
-                "bedeutend",
-                "bedeutet",
-                "bedeute",
-                "bedeutest",
-                "bedeutet",
-                "bedeuten",
-                "bedeutet",
-                "bedeuten",
-                ""
-            ],
-            "guid": "c_o[^W>]4}",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "beginnen",
-                "to begin",
-                "hat",
-                "beginnend",
-                "begonnen",
-                "beginne",
-                "beginnst",
-                "beginnt",
-                "beginnen",
-                "beginnt",
-                "beginnen",
-                ""
-            ],
-            "guid": "Bc]JRM2ITp",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "bekommen",
-                "to get/receive",
-                "hat",
-                "bekommend",
-                "bekommen",
-                "bekomme",
-                "bekommst",
-                "bekommt",
-                "bekommen",
-                "bekommt",
-                "bekommen",
-                ""
-            ],
-            "guid": "dt#Us{l37`",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "bestehen",
-                "to exist/pass",
-                "hat",
-                "bestehend",
-                "bestanden",
-                "bestehe",
-                "bestehst",
-                "besteht",
-                "bestehen",
-                "besteht",
-                "bestehen",
-                ""
-            ],
-            "guid": "G+ZM3L=@+d",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "bieten",
-                "to offer",
-                "hat",
-                "bietend",
-                "geboten",
-                "biete",
-                "bietest",
-                "bietet",
-                "bieten",
-                "bietet",
-                "bieten",
-                ""
-            ],
-            "guid": "Aa.TCoi654",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "bilden",
-                "to form",
-                "hat",
-                "bildend",
-                "gebildet",
-                "bilde",
-                "bildest",
-                "bildet",
-                "bilden",
-                "bildet",
-                "bilden",
-                ""
-            ],
-            "guid": "OX@%]P)^5L",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "brauchen",
-                "to need",
-                "hat",
-                "brauchend",
-                "gebraucht",
-                "brauche",
-                "brauchst",
-                "braucht",
-                "brauchen",
-                "braucht",
-                "brauchen",
-                ""
-            ],
-            "guid": "e:SC:!J++>",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "dar·stellen",
-                "to depict",
-                "hat",
-                "darstellend",
-                "dargestellt",
-                "stelle dar",
-                "stellst dar",
-                "stellt dar",
-                "stellen dar",
-                "stellt dar",
-                "stellen dar",
-                ""
-            ],
-            "guid": "D]vsS~^q{{",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": [
-                "trennbar"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "entsprechen",
-                "to correspond",
-                "hat",
-                "entsprechend",
-                "entsprochen",
-                "entspreche",
-                "entsprichst",
-                "entspricht",
-                "entsprechen",
-                "entsprecht",
-                "entsprechen",
-                ""
-            ],
-            "guid": "i>q2%m;|]c",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "entstehen",
-                "to originate",
-                "ist",
-                "entstehend",
-                "entstanden",
-                "entstehe",
-                "entstehst",
-                "entsteht",
-                "entstehen",
-                "entsteht",
-                "entstehen",
-                ""
-            ],
-            "guid": "ON!6O}~Ynn",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "entwickeln",
-                "to develop",
-                "hat",
-                "entwickelnd",
-                "entwickelt",
-                "entwickle",
-                "entwickelst",
-                "entwickelt",
-                "entwickeln",
-                "entwickelt",
-                "entwickeln",
-                ""
-            ],
-            "guid": "Jkxn&Be1<K",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "ergeben",
-                "to result in",
-                "hat",
-                "ergebend",
-                "ergeben",
-                "ergebe",
-                "ergibst",
-                "ergibt",
-                "ergeben",
-                "ergebt",
-                "ergeben",
-                ""
-            ],
-            "guid": "br)1tEREco",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "erhalten",
-                "to receive",
-                "hat",
-                "erhaltend",
-                "erhalten",
-                "erhalte",
-                "erhältst",
-                "erhält",
-                "erhalten",
-                "erhaltet",
-                "erhalten",
-                ""
-            ],
-            "guid": "C%(~l.j;>m",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "erkennen",
-                "to recognize",
-                "hat",
-                "erkennend",
-                "erkannt",
-                "erkenne",
-                "erkennst",
-                "erkennt",
-                "erkennen",
-                "erkennt",
-                "erkennen",
-                ""
-            ],
-            "guid": "ET&!UD03A+",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "erscheinen",
-                "to appear",
-                "ist",
-                "erscheinend",
-                "erschienen",
-                "erscheine",
-                "erscheinst",
-                "erscheint",
-                "erscheinen",
-                "erscheint",
-                "erscheinen",
-                ""
-            ],
-            "guid": "D;*QK7,fO6",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "erinnern",
-                "to remember",
-                "hat",
-                "erinnernd",
-                "erinnert",
-                "erinnere",
-                "erinnerst",
-                "erinnert",
-                "erinnern",
-                "erinnert",
-                "erinnern",
-                ""
-            ],
-            "guid": "M@Engtk)Oz",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "erklären",
-                "to explain",
-                "hat",
-                "erklärend",
-                "erklärt",
-                "erkläre",
-                "erklärst",
-                "erklärt",
-                "erklären",
-                "erklärt",
-                "erklären",
-                ""
-            ],
-            "guid": "O4g~k%7bZH",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "erreichen",
-                "to reach",
-                "hat",
-                "erreichend",
-                "erreicht",
-                "erreiche",
-                "erreichst",
-                "erreicht",
-                "erreichen",
-                "erreicht",
-                "erreichen",
-                ""
-            ],
-            "guid": "N<T]tLG6ky",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "erwarten",
-                "to expect",
-                "hat",
-                "erwartend",
-                "erwartet",
-                "erwarte",
-                "erwartest",
-                "erwartet",
-                "erwarten",
-                "erwartet",
-                "erwarten",
-                ""
-            ],
-            "guid": "pR_pbKZjB.",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "erzählen",
-                "to tell/narate",
-                "hat",
-                "erzählend",
-                "erzählt",
-                "erzähle",
-                "erzählst",
-                "erzählt",
-                "erzählen",
-                "erzählt",
-                "erzählen",
-                ""
-            ],
-            "guid": "qta5daUxnI",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
+                "",
                 "fallen",
                 "to fall",
                 "ist",
@@ -1655,126 +811,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "fehlen",
-                "to be missing",
-                "hat",
-                "fehlend",
-                "gefehlt",
-                "fehle",
-                "fehlst",
-                "fehlt",
-                "fehlen",
-                "fehlt",
-                "fehlen",
-                ""
-            ],
-            "guid": "H^V}M$&t/m",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "folgen",
-                "to follow",
-                "hat",
-                "folgend",
-                "gefolgt",
-                "folge",
-                "folgst",
-                "folgt",
-                "folgen",
-                "folgt",
-                "folgen",
-                ""
-            ],
-            "guid": "pL,HI91&BR",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "fragen",
-                "to ask",
-                "hat",
-                "fragend",
-                "gefragt",
-                "frage",
-                "fragst",
-                "fragt",
-                "fragen",
-                "fragt",
-                "fragen",
-                ""
-            ],
-            "guid": "JXM8,%6s`y",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "fühlen",
-                "to feel",
-                "hat",
-                "fühlend",
-                "gefühlt",
-                "fühle",
-                "fühlst",
-                "fühlt",
-                "fühlen",
-                "fühlt",
-                "fühlen",
-                ""
-            ],
-            "guid": "F_BUL]^$]M",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "führen",
-                "to lead",
-                "hat",
-                "führend",
-                "geführt",
-                "führe",
-                "führst",
-                "führt",
-                "führen",
-                "führt",
-                "führen",
-                ""
-            ],
-            "guid": "u]y|1J#{y",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "gehören",
-                "to belong",
-                "hat",
-                "gehörend",
-                "gehört",
-                "gehöre",
-                "gehörst",
-                "gehört",
-                "gehören",
-                "gehört",
-                "gehören",
-                ""
-            ],
-            "guid": "tCk*1[62|J",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
+                "",
                 "gelten",
                 "to be valid",
                 "hat",
@@ -1797,46 +834,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "gewinnen",
-                "to win",
-                "hat",
-                "gewinnend",
-                "gewonnen",
-                "gewinne",
-                "gewinnst",
-                "gewinnt",
-                "gewinnen",
-                "gewinnt",
-                "gewinnen",
-                ""
-            ],
-            "guid": "O[J[]jc.F~",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "glauben",
-                "to believe",
-                "hat",
-                "glaubend",
-                "geglaubt",
-                "glaube",
-                "glaubst",
-                "glaubt",
-                "glauben",
-                "glaubt",
-                "glauben",
-                ""
-            ],
-            "guid": "L!2^raOB*k",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
+                "",
                 "halten",
                 "to hold/stop",
                 "hat",
@@ -1859,386 +857,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "handeln",
-                "to deal/act",
-                "hat",
-                "handelnd",
-                "gehandelt",
-                "handle",
-                "handelst",
-                "handelt",
-                "handeln",
-                "handelt",
-                "handeln",
-                ""
-            ],
-            "guid": "nuf|ScukRq",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "heißen",
-                "to be called",
-                "hat",
-                "heißend",
-                "geheißen",
-                "heiße",
-                "heißt",
-                "heißt",
-                "heißen",
-                "heißt",
-                "heißen",
-                ""
-            ],
-            "guid": "NbjqfP{T19",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "(sich) interessieren",
-                "to interest",
-                "hat",
-                "interessierend",
-                "interessiert",
-                "interessiere",
-                "interessierst",
-                "interessiert",
-                "interessieren",
-                "interessiert",
-                "interessieren",
-                ""
-            ],
-            "guid": "t<TFo81KHr",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "kennen",
-                "to know (people)",
-                "hat",
-                "kenned",
-                "gekannt",
-                "kenne",
-                "kennst",
-                "kennt",
-                "kennen",
-                "kennt",
-                "kennen",
-                ""
-            ],
-            "guid": "L#eo#]PNpm",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "leben",
-                "to live",
-                "hat",
-                "lebend",
-                "gelebt",
-                "lebe",
-                "lebst",
-                "lebt",
-                "leben",
-                "lebt",
-                "leben",
-                ""
-            ],
-            "guid": "Q%CaJ~mfHq",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "legen",
-                "to lay",
-                "hat",
-                "legend",
-                "gelegt",
-                "lege",
-                "legst",
-                "legt",
-                "legen",
-                "legt",
-                "legen",
-                ""
-            ],
-            "guid": "j{Xo-%3?AS",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "meinen",
-                "to think/mean",
-                "hat",
-                "meinend",
-                "gemeint",
-                "meine",
-                "meinst",
-                "meint",
-                "meinen",
-                "meint",
-                "meinen",
-                ""
-            ],
-            "guid": "p^|fqQw#)%",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "nennen",
-                "to name",
-                "hat",
-                "nennend",
-                "genannt",
-                "nenne",
-                "nennst",
-                "nennt",
-                "nennen",
-                "nennt",
-                "nennen",
-                ""
-            ],
-            "guid": "vf/d6Y8%_I",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "reden",
-                "to talk",
-                "hat",
-                "redend",
-                "geredet",
-                "rede",
-                "redest",
-                "redet",
-                "reden",
-                "redet",
-                "reden",
-                ""
-            ],
-            "guid": "g]8L!v#ZFg",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "schaffen",
-                "to manage, create",
-                "hat",
-                "schaffend",
-                "geschaffen",
-                "schaffe",
-                "schaffst",
-                "schafft",
-                "schaffen",
-                "schafft",
-                "schaffen",
-                ""
-            ],
-            "guid": "n=R.X!JX%$",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "scheinen",
-                "to shine, seem",
-                "hat",
-                "scheinend",
-                "geschienen",
-                "scheine",
-                "scheinst",
-                "scheint",
-                "scheinen",
-                "scheint",
-                "scheinen",
-                ""
-            ],
-            "guid": "z&)l7UBK<b",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "schließen",
-                "to close",
-                "hat",
-                "schließend",
-                "geschlossen",
-                "schließe",
-                "schließt",
-                "schließt",
-                "schließen",
-                "schließt",
-                "schließen",
-                ""
-            ],
-            "guid": "j/&gTE8*jw",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "schreiben",
-                "to write",
-                "hat",
-                "schreibend",
-                "geschrieben",
-                "schreibe",
-                "schreibst",
-                "schreibt",
-                "schreiben",
-                "schreibt",
-                "schreiben",
-                ""
-            ],
-            "guid": "c.Fxm`8~!2",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "setzen",
-                "to set, put",
-                "hat",
-                "setzend",
-                "gesetzt",
-                "setze",
-                "setzt",
-                "setzt",
-                "setzen",
-                "setzt",
-                "setzen",
-                ""
-            ],
-            "guid": "ORVr3>?e2}",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "sitzen",
-                "to sit",
-                "hat",
-                "sitzend",
-                "gesessen",
-                "sitze",
-                "sitzt",
-                "sitzt",
-                "sitzen",
-                "sitzt",
-                "sitzen",
-                ""
-            ],
-            "guid": "r8vzT?$m<_",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "spielen",
-                "to play",
-                "hat",
-                "spielend",
-                "gespielt",
-                "spiele",
-                "spielst",
-                "spielt",
-                "spielen",
-                "spielt",
-                "spielen",
-                ""
-            ],
-            "guid": "p}k@70QPWP",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "stellen",
-                "to place, set",
-                "hat",
-                "stellend",
-                "gestellt",
-                "stelle",
-                "stellst",
-                "stellt",
-                "stellen",
-                "stellt",
-                "stellen",
-                ""
-            ],
-            "guid": "M8m&$i@P$_",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "studieren",
-                "to study",
-                "hat",
-                "studierend",
-                "studiert",
-                "studiere",
-                "studierst",
-                "studiert",
-                "studieren",
-                "studiert",
-                "studieren",
-                ""
-            ],
-            "guid": "Q0K1Y{$%&)",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "suchen",
-                "to search",
-                "hat",
-                "suchend",
-                "gesucht",
-                "suche",
-                "suchst",
-                "sucht",
-                "suchen",
-                "sucht",
-                "suchen",
-                ""
-            ],
-            "guid": "N=g1a2}4Y=",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
+                "",
                 "tun",
                 "to do",
                 "hat",
@@ -2261,228 +880,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "vergehen",
-                "to elapse",
-                "ist",
-                "vergehend",
-                "vergangen",
-                "vergehe",
-                "vergehst",
-                "vergeht",
-                "vergehen",
-                "vergeht",
-                "vergehen",
-                ""
-            ],
-            "guid": "CMidPfT+lu",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "verbinden",
-                "to connect",
-                "hat",
-                "verbindend",
-                "verbunden",
-                "verbinde",
-                "verbindest",
-                "verbindet",
-                "verbinden",
-                "verbindet",
-                "verbinden",
-                ""
-            ],
-            "guid": "GWf6W-HV=r",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "vergleichen",
-                "to compare",
-                "hat",
-                "vergleichend",
-                "verglichen",
-                "vergleiche",
-                "vergleichst",
-                "vergleicht",
-                "vergleichen",
-                "vergleicht",
-                "vergleichen",
-                ""
-            ],
-            "guid": "n|MstNaF*z",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "verlieren",
-                "to lose",
-                "hat",
-                "verlierend",
-                "verloren",
-                "verliere",
-                "verlierst",
-                "verliert",
-                "verlieren",
-                "verliert",
-                "verlieren",
-                ""
-            ],
-            "guid": "c?Kp$tXbCx",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "verstehen",
-                "to understand",
-                "hat",
-                "verstehend",
-                "verstanden",
-                "verstehe",
-                "verstehst",
-                "versteht",
-                "verstehen",
-                "versteht",
-                "verstehen",
-                ""
-            ],
-            "guid": "CFpf$/fa?C",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "versuchen",
-                "to try",
-                "hat",
-                "versuchend",
-                "versucht",
-                "versuche",
-                "versuchst",
-                "versucht",
-                "versuchen",
-                "versucht",
-                "versuchen",
-                ""
-            ],
-            "guid": "JCbv^MFDZ3",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "vor·stellen",
-                "to introduce",
-                "hat",
-                "vorstellend",
-                "vorgestellt",
-                "stelle vor",
-                "stellst vor",
-                "stellt vor",
-                "stellen vor",
-                "stellt vor",
-                "stellen vor",
-                ""
-            ],
-            "guid": "v0|=8A]SH`",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": [
-                "trennbar"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "warten",
-                "to wait",
-                "hat",
-                "wartend",
-                "gewartet",
-                "warte",
-                "wartest",
-                "wartet",
-                "warten",
-                "wartet",
-                "warten",
-                ""
-            ],
-            "guid": "OB!$J?]DN/",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "wohnen",
-                "to live",
-                "hat",
-                "wohnend",
-                "gewohnt",
-                "wohne",
-                "wohnst",
-                "wohnt",
-                "wohnen",
-                "wohnt",
-                "wohnen",
-                ""
-            ],
-            "guid": "jOl;->/6Ft",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "zeigen",
-                "to show",
-                "hat",
-                "zeigend",
-                "gezeigt",
-                "zeige",
-                "zeigst",
-                "zeigt",
-                "zeigen",
-                "zeigt",
-                "zeigen",
-                ""
-            ],
-            "guid": "s>oI8te#K{",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "ziehen",
-                "to pull, move",
-                "ist",
-                "ziehend",
-                "gezogen",
-                "ziehe",
-                "ziehst",
-                "zieht",
-                "ziehen",
-                "zieht",
-                "ziehen",
-                ""
-            ],
-            "guid": "m>=%fJF9?Q",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
+                "",
                 "treffen",
                 "to meet",
                 "hat",
@@ -2505,6 +903,7 @@
         {
             "__type__": "Note",
             "fields": [
+                "",
                 "lesen",
                 "to read",
                 "hat",
@@ -2527,28 +926,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "empfehlen",
-                "to recommend",
-                "hat",
-                "empfehlend",
-                "empfohlen",
-                "empfehle",
-                "empfiehlst",
-                "empfiehlt",
-                "empfehlen",
-                "empfehlt",
-                "empfehlen",
-                "1"
-            ],
-            "guid": "h|[_:}Z-Y&",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": [
-                "vokalwechsel"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
+                "",
                 "waschen",
                 "to wash",
                 "hat",
@@ -2571,6 +949,7 @@
         {
             "__type__": "Note",
             "fields": [
+                "",
                 "tragen",
                 "to carry, to wear",
                 "hat",
@@ -2593,28 +972,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "backen",
-                "to bake",
-                "hat",
-                "backend",
-                "gebacken",
-                "backe",
-                "bäckst",
-                "bäckt",
-                "backen",
-                "backt",
-                "backen",
-                "1"
-            ],
-            "guid": "GzL7z&JtJ9",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": [
-                "vokalwechsel"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
+                "",
                 "lassen",
                 "to let",
                 "hat",
@@ -2637,6 +995,1592 @@
         {
             "__type__": "Note",
             "fields": [
+                "",
+                "gehen",
+                "to go",
+                "ist",
+                "gehend",
+                "gegangen",
+                "gehe",
+                "gehst",
+                "geht",
+                "gehen",
+                "geht",
+                "gehen",
+                ""
+            ],
+            "guid": "f|0EA$M|TN",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "kommen",
+                "to come",
+                "ist",
+                "kommend",
+                "gekommen",
+                "komme",
+                "kommst",
+                "kommt",
+                "kommen",
+                "kommt",
+                "kommen",
+                ""
+            ],
+            "guid": "op$~y,Bz<9",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "bleiben",
+                "to stay",
+                "ist",
+                "bleibend",
+                "geblieben",
+                "bleibe",
+                "bleibst",
+                "bleibt",
+                "bleiben",
+                "bleibt",
+                "bleiben",
+                ""
+            ],
+            "guid": "tCuQjnPXB,",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "trinken",
+                "to drink",
+                "hat",
+                "trinkend",
+                "getrunken",
+                "trinke",
+                "trinkst",
+                "trinkt",
+                "trinken",
+                "trinkt",
+                "trinken",
+                ""
+            ],
+            "guid": "BX#cD$,*{#",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "finden",
+                "to find",
+                "hat",
+                "findend",
+                "gefunden",
+                "finde",
+                "findest",
+                "findet",
+                "finden",
+                "findet",
+                "finden",
+                ""
+            ],
+            "guid": "c|EmntEf#%",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "denken",
+                "to think",
+                "hat",
+                "denkend",
+                "gedacht",
+                "denke",
+                "denkst",
+                "denkt",
+                "denken",
+                "denkt",
+                "denken",
+                ""
+            ],
+            "guid": "k#h`=vuH@>",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "bringen",
+                "to bring",
+                "hat",
+                "bringend",
+                "gebracht",
+                "bringe",
+                "bringst",
+                "bringt",
+                "bringen",
+                "bringt",
+                "bringen",
+                ""
+            ],
+            "guid": "kIqM/gVTZ]",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "lernen",
+                "to learn",
+                "hat",
+                "lernend",
+                "gelernt",
+                "lerne",
+                "lernst",
+                "lernt",
+                "lernen",
+                "lernt",
+                "lernen",
+                ""
+            ],
+            "guid": "P$o}Ag1zge",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "41",
+                "arbeiten",
+                "to work",
+                "hat",
+                "arbeitend",
+                "gearbeitet",
+                "arbeite",
+                "arbeitest",
+                "arbeitet",
+                "arbeiten",
+                "arbeitet",
+                "arbeiten",
+                ""
+            ],
+            "guid": "CRU!zG50M.",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "machen",
+                "to do, to make",
+                "hat",
+                "machend",
+                "gemacht",
+                "mache",
+                "machst",
+                "macht",
+                "machen",
+                "macht",
+                "machen",
+                ""
+            ],
+            "guid": "M>%3CKm[$n",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "sagen",
+                "to say",
+                "hat",
+                "sagend",
+                "gesagt",
+                "sage",
+                "sagst",
+                "sagt",
+                "sagen",
+                "sagt",
+                "sagen",
+                ""
+            ],
+            "guid": "Ket9K&]2-V",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "stehen",
+                "to stand",
+                "hat",
+                "stehend",
+                "gestanden",
+                "stehe",
+                "stehst",
+                "steht",
+                "stehen",
+                "steht",
+                "stehen",
+                ""
+            ],
+            "guid": "cOj#yE/TL@",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "liegen",
+                "to lie, to be lying",
+                "hat",
+                "liegend",
+                "gelegen",
+                "liege",
+                "liegst",
+                "liegt",
+                "liegen",
+                "liegt",
+                "liegen",
+                ""
+            ],
+            "guid": "D6VYWs#Dax",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "94",
+                "an·bieten",
+                "to offer",
+                "hat",
+                "anbietend",
+                "angeboten",
+                "biete an",
+                "bietest an",
+                "bietet an",
+                "bieten an",
+                "bietet an",
+                "bieten an",
+                ""
+            ],
+            "guid": "ytObR%a2CM",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "trennbar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "97",
+                "an·sehen",
+                "to look at",
+                "hat",
+                "ansehend",
+                "angesehen",
+                "sehe an",
+                "siehst an",
+                "sieht an",
+                "sehen an",
+                "seht an",
+                "sehen an",
+                ""
+            ],
+            "guid": "Dzf!I]49R>",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "trennbar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "77",
+                "aus·sehen",
+                "to look/appear",
+                "hat",
+                "aussehend",
+                "ausgesehen",
+                "sehe aus",
+                "siehst aus",
+                "sieht aus",
+                "sehen aus",
+                "seht aus",
+                "sehen aus",
+                ""
+            ],
+            "guid": "m,RG=2Z;C_",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "trennbar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "betreffen",
+                "to affect",
+                "hat",
+                "betreffend",
+                "betroffen",
+                "betreffe",
+                "betreffst",
+                "betrifft",
+                "betreffen",
+                "betrifft",
+                "betreffen",
+                ""
+            ],
+            "guid": "g1rKI/](q-",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "99",
+                "bedeuten",
+                "to mean",
+                "hat",
+                "bedeutend",
+                "bedeutet",
+                "bedeute",
+                "bedeutest",
+                "bedeutet",
+                "bedeuten",
+                "bedeutet",
+                "bedeuten",
+                ""
+            ],
+            "guid": "c_o[^W>]4}",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "49",
+                "beginnen",
+                "to begin",
+                "hat",
+                "beginnend",
+                "begonnen",
+                "beginne",
+                "beginnst",
+                "beginnt",
+                "beginnen",
+                "beginnt",
+                "beginnen",
+                ""
+            ],
+            "guid": "Bc]JRM2ITp",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "48",
+                "bekommen",
+                "to get/receive",
+                "hat",
+                "bekommend",
+                "bekommen",
+                "bekomme",
+                "bekommst",
+                "bekommt",
+                "bekommen",
+                "bekommt",
+                "bekommen",
+                ""
+            ],
+            "guid": "dt#Us{l37`",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "45",
+                "bestehen",
+                "to exist/pass",
+                "hat",
+                "bestehend",
+                "bestanden",
+                "bestehe",
+                "bestehst",
+                "besteht",
+                "bestehen",
+                "besteht",
+                "bestehen",
+                ""
+            ],
+            "guid": "G+ZM3L=@+d",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "bieten",
+                "to offer",
+                "hat",
+                "bietend",
+                "geboten",
+                "biete",
+                "bietest",
+                "bietet",
+                "bieten",
+                "bietet",
+                "bieten",
+                ""
+            ],
+            "guid": "Aa.TCoi654",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "bilden",
+                "to form",
+                "hat",
+                "bildend",
+                "gebildet",
+                "bilde",
+                "bildest",
+                "bildet",
+                "bilden",
+                "bildet",
+                "bilden",
+                ""
+            ],
+            "guid": "OX@%]P)^5L",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "brauchen",
+                "to need",
+                "hat",
+                "brauchend",
+                "gebraucht",
+                "brauche",
+                "brauchst",
+                "braucht",
+                "brauchen",
+                "braucht",
+                "brauchen",
+                ""
+            ],
+            "guid": "e:SC:!J++>",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "dar·stellen",
+                "to depict",
+                "hat",
+                "darstellend",
+                "dargestellt",
+                "stelle dar",
+                "stellst dar",
+                "stellt dar",
+                "stellen dar",
+                "stellt dar",
+                "stellen dar",
+                ""
+            ],
+            "guid": "D]vsS~^q{{",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "trennbar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "entsprechen",
+                "to correspond",
+                "hat",
+                "entsprechend",
+                "entsprochen",
+                "entspreche",
+                "entsprichst",
+                "entspricht",
+                "entsprechen",
+                "entsprecht",
+                "entsprechen",
+                ""
+            ],
+            "guid": "i>q2%m;|]c",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "entstehen",
+                "to originate",
+                "ist",
+                "entstehend",
+                "entstanden",
+                "entstehe",
+                "entstehst",
+                "entsteht",
+                "entstehen",
+                "entsteht",
+                "entstehen",
+                ""
+            ],
+            "guid": "ON!6O}~Ynn",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "entwickeln",
+                "to develop",
+                "hat",
+                "entwickelnd",
+                "entwickelt",
+                "entwickle",
+                "entwickelst",
+                "entwickelt",
+                "entwickeln",
+                "entwickelt",
+                "entwickeln",
+                ""
+            ],
+            "guid": "Jkxn&Be1<K",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "ergeben",
+                "to result in",
+                "hat",
+                "ergebend",
+                "ergeben",
+                "ergebe",
+                "ergibst",
+                "ergibt",
+                "ergeben",
+                "ergebt",
+                "ergeben",
+                ""
+            ],
+            "guid": "br)1tEREco",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "erhalten",
+                "to receive",
+                "hat",
+                "erhaltend",
+                "erhalten",
+                "erhalte",
+                "erhältst",
+                "erhält",
+                "erhalten",
+                "erhaltet",
+                "erhalten",
+                ""
+            ],
+            "guid": "C%(~l.j;>m",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "erkennen",
+                "to recognize",
+                "hat",
+                "erkennend",
+                "erkannt",
+                "erkenne",
+                "erkennst",
+                "erkennt",
+                "erkennen",
+                "erkennt",
+                "erkennen",
+                ""
+            ],
+            "guid": "ET&!UD03A+",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "erscheinen",
+                "to appear",
+                "ist",
+                "erscheinend",
+                "erschienen",
+                "erscheine",
+                "erscheinst",
+                "erscheint",
+                "erscheinen",
+                "erscheint",
+                "erscheinen",
+                ""
+            ],
+            "guid": "D;*QK7,fO6",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "erinnern",
+                "to remember",
+                "hat",
+                "erinnernd",
+                "erinnert",
+                "erinnere",
+                "erinnerst",
+                "erinnert",
+                "erinnern",
+                "erinnert",
+                "erinnern",
+                ""
+            ],
+            "guid": "M@Engtk)Oz",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "erklären",
+                "to explain",
+                "hat",
+                "erklärend",
+                "erklärt",
+                "erkläre",
+                "erklärst",
+                "erklärt",
+                "erklären",
+                "erklärt",
+                "erklären",
+                ""
+            ],
+            "guid": "O4g~k%7bZH",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "erreichen",
+                "to reach",
+                "hat",
+                "erreichend",
+                "erreicht",
+                "erreiche",
+                "erreichst",
+                "erreicht",
+                "erreichen",
+                "erreicht",
+                "erreichen",
+                ""
+            ],
+            "guid": "N<T]tLG6ky",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "erwarten",
+                "to expect",
+                "hat",
+                "erwartend",
+                "erwartet",
+                "erwarte",
+                "erwartest",
+                "erwartet",
+                "erwarten",
+                "erwartet",
+                "erwarten",
+                ""
+            ],
+            "guid": "pR_pbKZjB.",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "erzählen",
+                "to tell/narate",
+                "hat",
+                "erzählend",
+                "erzählt",
+                "erzähle",
+                "erzählst",
+                "erzählt",
+                "erzählen",
+                "erzählt",
+                "erzählen",
+                ""
+            ],
+            "guid": "qta5daUxnI",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "fehlen",
+                "to be missing",
+                "hat",
+                "fehlend",
+                "gefehlt",
+                "fehle",
+                "fehlst",
+                "fehlt",
+                "fehlen",
+                "fehlt",
+                "fehlen",
+                ""
+            ],
+            "guid": "H^V}M$&t/m",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "folgen",
+                "to follow",
+                "hat",
+                "folgend",
+                "gefolgt",
+                "folge",
+                "folgst",
+                "folgt",
+                "folgen",
+                "folgt",
+                "folgen",
+                ""
+            ],
+            "guid": "pL,HI91&BR",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "fragen",
+                "to ask",
+                "hat",
+                "fragend",
+                "gefragt",
+                "frage",
+                "fragst",
+                "fragt",
+                "fragen",
+                "fragt",
+                "fragen",
+                ""
+            ],
+            "guid": "JXM8,%6s`y",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "fühlen",
+                "to feel",
+                "hat",
+                "fühlend",
+                "gefühlt",
+                "fühle",
+                "fühlst",
+                "fühlt",
+                "fühlen",
+                "fühlt",
+                "fühlen",
+                ""
+            ],
+            "guid": "F_BUL]^$]M",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "führen",
+                "to lead",
+                "hat",
+                "führend",
+                "geführt",
+                "führe",
+                "führst",
+                "führt",
+                "führen",
+                "führt",
+                "führen",
+                ""
+            ],
+            "guid": "u]y|1J#{y",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "gehören",
+                "to belong",
+                "hat",
+                "gehörend",
+                "gehört",
+                "gehöre",
+                "gehörst",
+                "gehört",
+                "gehören",
+                "gehört",
+                "gehören",
+                ""
+            ],
+            "guid": "tCk*1[62|J",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "gewinnen",
+                "to win",
+                "hat",
+                "gewinnend",
+                "gewonnen",
+                "gewinne",
+                "gewinnst",
+                "gewinnt",
+                "gewinnen",
+                "gewinnt",
+                "gewinnen",
+                ""
+            ],
+            "guid": "O[J[]jc.F~",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "glauben",
+                "to believe",
+                "hat",
+                "glaubend",
+                "geglaubt",
+                "glaube",
+                "glaubst",
+                "glaubt",
+                "glauben",
+                "glaubt",
+                "glauben",
+                ""
+            ],
+            "guid": "L!2^raOB*k",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "handeln",
+                "to deal/act",
+                "hat",
+                "handelnd",
+                "gehandelt",
+                "handle",
+                "handelst",
+                "handelt",
+                "handeln",
+                "handelt",
+                "handeln",
+                ""
+            ],
+            "guid": "nuf|ScukRq",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "heißen",
+                "to be called",
+                "hat",
+                "heißend",
+                "geheißen",
+                "heiße",
+                "heißt",
+                "heißt",
+                "heißen",
+                "heißt",
+                "heißen",
+                ""
+            ],
+            "guid": "NbjqfP{T19",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "91",
+                "(sich) interessieren",
+                "to interest",
+                "hat",
+                "interessierend",
+                "interessiert",
+                "interessiere",
+                "interessierst",
+                "interessiert",
+                "interessieren",
+                "interessiert",
+                "interessieren",
+                ""
+            ],
+            "guid": "t<TFo81KHr",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "kennen",
+                "to know (people)",
+                "hat",
+                "kenned",
+                "gekannt",
+                "kenne",
+                "kennst",
+                "kennt",
+                "kennen",
+                "kennt",
+                "kennen",
+                ""
+            ],
+            "guid": "L#eo#]PNpm",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "leben",
+                "to live",
+                "hat",
+                "lebend",
+                "gelebt",
+                "lebe",
+                "lebst",
+                "lebt",
+                "leben",
+                "lebt",
+                "leben",
+                ""
+            ],
+            "guid": "Q%CaJ~mfHq",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "legen",
+                "to lay",
+                "hat",
+                "legend",
+                "gelegt",
+                "lege",
+                "legst",
+                "legt",
+                "legen",
+                "legt",
+                "legen",
+                ""
+            ],
+            "guid": "j{Xo-%3?AS",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "meinen",
+                "to think/mean",
+                "hat",
+                "meinend",
+                "gemeint",
+                "meine",
+                "meinst",
+                "meint",
+                "meinen",
+                "meint",
+                "meinen",
+                ""
+            ],
+            "guid": "p^|fqQw#)%",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "nennen",
+                "to name",
+                "hat",
+                "nennend",
+                "genannt",
+                "nenne",
+                "nennst",
+                "nennt",
+                "nennen",
+                "nennt",
+                "nennen",
+                ""
+            ],
+            "guid": "vf/d6Y8%_I",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "reden",
+                "to talk",
+                "hat",
+                "redend",
+                "geredet",
+                "rede",
+                "redest",
+                "redet",
+                "reden",
+                "redet",
+                "reden",
+                ""
+            ],
+            "guid": "g]8L!v#ZFg",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "schaffen",
+                "to manage, create",
+                "hat",
+                "schaffend",
+                "geschaffen",
+                "schaffe",
+                "schaffst",
+                "schafft",
+                "schaffen",
+                "schafft",
+                "schaffen",
+                ""
+            ],
+            "guid": "n=R.X!JX%$",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "scheinen",
+                "to shine, seem",
+                "hat",
+                "scheinend",
+                "geschienen",
+                "scheine",
+                "scheinst",
+                "scheint",
+                "scheinen",
+                "scheint",
+                "scheinen",
+                ""
+            ],
+            "guid": "z&)l7UBK<b",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "schließen",
+                "to close",
+                "hat",
+                "schließend",
+                "geschlossen",
+                "schließe",
+                "schließt",
+                "schließt",
+                "schließen",
+                "schließt",
+                "schließen",
+                ""
+            ],
+            "guid": "j/&gTE8*jw",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "schreiben",
+                "to write",
+                "hat",
+                "schreibend",
+                "geschrieben",
+                "schreibe",
+                "schreibst",
+                "schreibt",
+                "schreiben",
+                "schreibt",
+                "schreiben",
+                ""
+            ],
+            "guid": "c.Fxm`8~!2",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "setzen",
+                "to set, put",
+                "hat",
+                "setzend",
+                "gesetzt",
+                "setze",
+                "setzt",
+                "setzt",
+                "setzen",
+                "setzt",
+                "setzen",
+                ""
+            ],
+            "guid": "ORVr3>?e2}",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "sitzen",
+                "to sit",
+                "hat",
+                "sitzend",
+                "gesessen",
+                "sitze",
+                "sitzt",
+                "sitzt",
+                "sitzen",
+                "sitzt",
+                "sitzen",
+                ""
+            ],
+            "guid": "r8vzT?$m<_",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "spielen",
+                "to play",
+                "hat",
+                "spielend",
+                "gespielt",
+                "spiele",
+                "spielst",
+                "spielt",
+                "spielen",
+                "spielt",
+                "spielen",
+                ""
+            ],
+            "guid": "p}k@70QPWP",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "stellen",
+                "to place, set",
+                "hat",
+                "stellend",
+                "gestellt",
+                "stelle",
+                "stellst",
+                "stellt",
+                "stellen",
+                "stellt",
+                "stellen",
+                ""
+            ],
+            "guid": "M8m&$i@P$_",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "studieren",
+                "to study",
+                "hat",
+                "studierend",
+                "studiert",
+                "studiere",
+                "studierst",
+                "studiert",
+                "studieren",
+                "studiert",
+                "studieren",
+                ""
+            ],
+            "guid": "Q0K1Y{$%&)",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "suchen",
+                "to search",
+                "hat",
+                "suchend",
+                "gesucht",
+                "suche",
+                "suchst",
+                "sucht",
+                "suchen",
+                "sucht",
+                "suchen",
+                ""
+            ],
+            "guid": "N=g1a2}4Y=",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "vergehen",
+                "to elapse",
+                "ist",
+                "vergehend",
+                "vergangen",
+                "vergehe",
+                "vergehst",
+                "vergeht",
+                "vergehen",
+                "vergeht",
+                "vergehen",
+                ""
+            ],
+            "guid": "CMidPfT+lu",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "verbinden",
+                "to connect",
+                "hat",
+                "verbindend",
+                "verbunden",
+                "verbinde",
+                "verbindest",
+                "verbindet",
+                "verbinden",
+                "verbindet",
+                "verbinden",
+                ""
+            ],
+            "guid": "GWf6W-HV=r",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "vergleichen",
+                "to compare",
+                "hat",
+                "vergleichend",
+                "verglichen",
+                "vergleiche",
+                "vergleichst",
+                "vergleicht",
+                "vergleichen",
+                "vergleicht",
+                "vergleichen",
+                ""
+            ],
+            "guid": "n|MstNaF*z",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "verlieren",
+                "to lose",
+                "hat",
+                "verlierend",
+                "verloren",
+                "verliere",
+                "verlierst",
+                "verliert",
+                "verlieren",
+                "verliert",
+                "verlieren",
+                ""
+            ],
+            "guid": "c?Kp$tXbCx",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "verstehen",
+                "to understand",
+                "hat",
+                "verstehend",
+                "verstanden",
+                "verstehe",
+                "verstehst",
+                "versteht",
+                "verstehen",
+                "versteht",
+                "verstehen",
+                ""
+            ],
+            "guid": "CFpf$/fa?C",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "versuchen",
+                "to try",
+                "hat",
+                "versuchend",
+                "versucht",
+                "versuche",
+                "versuchst",
+                "versucht",
+                "versuchen",
+                "versucht",
+                "versuchen",
+                ""
+            ],
+            "guid": "JCbv^MFDZ3",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "vor·stellen",
+                "to introduce",
+                "hat",
+                "vorstellend",
+                "vorgestellt",
+                "stelle vor",
+                "stellst vor",
+                "stellt vor",
+                "stellen vor",
+                "stellt vor",
+                "stellen vor",
+                ""
+            ],
+            "guid": "v0|=8A]SH`",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "trennbar"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "warten",
+                "to wait",
+                "hat",
+                "wartend",
+                "gewartet",
+                "warte",
+                "wartest",
+                "wartet",
+                "warten",
+                "wartet",
+                "warten",
+                ""
+            ],
+            "guid": "OB!$J?]DN/",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "wohnen",
+                "to live",
+                "hat",
+                "wohnend",
+                "gewohnt",
+                "wohne",
+                "wohnst",
+                "wohnt",
+                "wohnen",
+                "wohnt",
+                "wohnen",
+                ""
+            ],
+            "guid": "jOl;->/6Ft",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "zeigen",
+                "to show",
+                "hat",
+                "zeigend",
+                "gezeigt",
+                "zeige",
+                "zeigst",
+                "zeigt",
+                "zeigen",
+                "zeigt",
+                "zeigen",
+                ""
+            ],
+            "guid": "s>oI8te#K{",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "ziehen",
+                "to pull, move",
+                "ist",
+                "ziehend",
+                "gezogen",
+                "ziehe",
+                "ziehst",
+                "zieht",
+                "ziehen",
+                "zieht",
+                "ziehen",
+                ""
+            ],
+            "guid": "m>=%fJF9?Q",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
                 "interessieren",
                 "to interest",
                 "hat",
@@ -2657,6 +2601,7 @@
         {
             "__type__": "Note",
             "fields": [
+                "",
                 "können",
                 "can, to be able to",
                 "",
@@ -2679,11 +2624,12 @@
         {
             "__type__": "Note",
             "fields": [
+                "",
                 "müssen",
                 "must, to have to",
-                "hat",
-                "müssend",
-                "gemusst",
+                "",
+                "",
+                "",
                 "muss",
                 "musst",
                 "muss",
@@ -2694,11 +2640,14 @@
             ],
             "guid": "ed7A1D~ls-",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
+            "tags": [
+                "modalverb"
+            ]
         },
         {
             "__type__": "Note",
             "fields": [
+                "",
                 "sollen",
                 "should, ought to",
                 "",
@@ -2721,6 +2670,7 @@
         {
             "__type__": "Note",
             "fields": [
+                "",
                 "wollen",
                 "to want",
                 "",
@@ -2743,6 +2693,7 @@
         {
             "__type__": "Note",
             "fields": [
+                "",
                 "dürfen",
                 "may, to be allowed to",
                 "",
@@ -2765,6 +2716,7 @@
         {
             "__type__": "Note",
             "fields": [
+                "",
                 "mögen",
                 "to like",
                 "",
