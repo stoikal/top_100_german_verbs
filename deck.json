@@ -302,6 +302,20 @@
             "req": [
                 [
                     0,
+                    "any",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "any",
+                    [
+                        1
+                    ]
+                ],
+                [
+                    2,
                     "all",
                     [
                         0,
@@ -310,7 +324,7 @@
                     ]
                 ],
                 [
-                    1,
+                    3,
                     "all",
                     [
                         0,
@@ -319,7 +333,7 @@
                     ]
                 ],
                 [
-                    2,
+                    4,
                     "all",
                     [
                         0,
@@ -328,7 +342,7 @@
                     ]
                 ],
                 [
-                    3,
+                    5,
                     "all",
                     [
                         0,
@@ -337,7 +351,7 @@
                     ]
                 ],
                 [
-                    4,
+                    6,
                     "all",
                     [
                         0,
@@ -346,7 +360,7 @@
                     ]
                 ],
                 [
-                    5,
+                    7,
                     "all",
                     [
                         0,
@@ -355,7 +369,7 @@
                     ]
                 ],
                 [
-                    6,
+                    8,
                     "all",
                     [
                         0,
@@ -367,6 +381,30 @@
             "sortf": 0,
             "tmpls": [
                 {
+                    "afmt": "{{infinitiv}}\n\n<hr id=\"answer\">\n\n{{english}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": -2280708244615920080,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{infinitiv}}"
+                },
+                {
+                    "afmt": "{{english}}\n\n<hr id=\"answer\">\n\n{{infinitiv}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": 5483666085017543929,
+                    "name": "Card 2",
+                    "ord": 1,
+                    "qfmt": "{{english}}"
+                },
+                {
                     "afmt": "{{#partizip_2}}\n{{#perfekt_hilfsverb}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>Perfekt</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{perfekt_hilfsverb}} {{partizip_2}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/perfekt_hilfsverb}}\n{{/partizip_2}}",
                     "bafmt": "",
                     "bfont": "",
@@ -374,8 +412,8 @@
                     "bsize": 0,
                     "did": null,
                     "id": -5310240084013495701,
-                    "name": "Card 1",
-                    "ord": 0,
+                    "name": "Card 3",
+                    "ord": 2,
                     "qfmt": "{{#partizip_2}}\n{{#perfekt_hilfsverb}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>Perfekt</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/perfekt_hilfsverb}}\n{{/partizip_2}}"
                 },
                 {
@@ -386,8 +424,8 @@
                     "bsize": 0,
                     "did": null,
                     "id": -8618730438274029698,
-                    "name": "Card 2",
-                    "ord": 1,
+                    "name": "Card 4",
+                    "ord": 3,
                     "qfmt": "{{#irregular}}\n{{#präsens_ich}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>ich</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_ich}}\n{{/irregular}}"
                 },
                 {
@@ -398,8 +436,8 @@
                     "bsize": 0,
                     "did": null,
                     "id": 3417835133816006513,
-                    "name": "Card 3",
-                    "ord": 2,
+                    "name": "Card 5",
+                    "ord": 4,
                     "qfmt": "{{#irregular}}\n{{#präsens_du}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>du</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_du}}\n{{/irregular}}"
                 },
                 {
@@ -410,8 +448,8 @@
                     "bsize": 0,
                     "did": null,
                     "id": 8022338457476321242,
-                    "name": "Card 4",
-                    "ord": 3,
+                    "name": "Card 6",
+                    "ord": 5,
                     "qfmt": "{{#irregular}}\n{{#präsens_er_sie_es}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>er/sie/es</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_er_sie_es}}\n{{/irregular}}"
                 },
                 {
@@ -422,8 +460,8 @@
                     "bsize": 0,
                     "did": null,
                     "id": -5180590165654532213,
-                    "name": "Card 5",
-                    "ord": 4,
+                    "name": "Card 7",
+                    "ord": 6,
                     "qfmt": "{{#irregular}}\n{{#präsens_wir}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>wir</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_wir}}\n{{/irregular}}"
                 },
                 {
@@ -434,8 +472,8 @@
                     "bsize": 0,
                     "did": null,
                     "id": -5995462104599391384,
-                    "name": "Card 6",
-                    "ord": 5,
+                    "name": "Card 8",
+                    "ord": 7,
                     "qfmt": "{{#irregular}}\n{{#präsens_ihr}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>ihr</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_ihr}}\n{{/irregular}}"
                 },
                 {
@@ -446,8 +484,8 @@
                     "bsize": 0,
                     "did": null,
                     "id": -1826269668653084167,
-                    "name": "Card 7",
-                    "ord": 6,
+                    "name": "Card 9",
+                    "ord": 8,
                     "qfmt": "{{#irregular}}\n{{#präsens_sie_Sie}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>sie/Sie</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_sie_Sie}}\n{{/irregular}}"
                 }
             ],
@@ -672,6 +710,48 @@
         {
             "__type__": "Note",
             "fields": [
+                "essen",
+                "to eat",
+                "hat",
+                "essend",
+                "gegessen",
+                "esse",
+                "isst",
+                "isst",
+                "essen",
+                "esst",
+                "essen",
+                "1"
+            ],
+            "guid": "jFkOnIWa58",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vokalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "trinken",
+                "to drink",
+                "hat",
+                "trinkend",
+                "getrunken",
+                "trinke",
+                "trinkst",
+                "trinkt",
+                "trinken",
+                "trinkt",
+                "trinken",
+                ""
+            ],
+            "guid": "BX#cD$,*{#",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
                 "sprechen",
                 "to speak",
                 "hat",
@@ -686,6 +766,28 @@
                 "1"
             ],
             "guid": "E-4HR&;r,8",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vokalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "schlafen",
+                "to sleep",
+                "hat",
+                "schlafend",
+                "geschlafen",
+                "schlafe",
+                "schläfst",
+                "schläft",
+                "schlafen",
+                "schlaft",
+                "schlafen",
+                "1"
+            ],
+            "guid": "I0+j2B/yf-",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
             "tags": [
                 "vokalwechsel"
@@ -798,6 +900,26 @@
         {
             "__type__": "Note",
             "fields": [
+                "kaufen",
+                "to buy",
+                "hat",
+                "kaufend",
+                "gekauft",
+                "kaufe",
+                "kaufst",
+                "kauft",
+                "kaufen",
+                "kauft",
+                "kaufen",
+                ""
+            ],
+            "guid": "idPSdjp?-|",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
                 "lernen",
                 "to learn",
                 "hat",
@@ -852,6 +974,66 @@
                 ""
             ],
             "guid": "M>%3CKm[$n",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ankommen",
+                "to arrive",
+                "ist",
+                "ankommend",
+                "angekommen",
+                "komme an",
+                "kommst an",
+                "kommt an",
+                "kommen an",
+                "kommt an",
+                "kommen an",
+                ""
+            ],
+            "guid": "y~Mx0me+jB",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "aufstehen",
+                "to get up",
+                "ist",
+                "aufstehend",
+                "aufgestanden",
+                "stehe auf",
+                "stehst auf",
+                "steht auf",
+                "stehen auf",
+                "steht auf",
+                "stehen auf",
+                ""
+            ],
+            "guid": "wE.?s@%a+R",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "einkaufen",
+                "to shop, to buy",
+                "hat",
+                "einkaufend",
+                "eingekauft",
+                "kaufe ein",
+                "kaufst ein",
+                "kauft ein",
+                "kaufen ein",
+                "kauft ein",
+                "kaufen ein",
+                ""
+            ],
+            "guid": "E&oL0QODAQ",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
             "tags": []
         },
@@ -1717,6 +1899,26 @@
         {
             "__type__": "Note",
             "fields": [
+                "(sich) interessieren",
+                "to interest",
+                "hat",
+                "interessierend",
+                "interessiert",
+                "interessiere",
+                "interessierst",
+                "interessiert",
+                "interessieren",
+                "interessiert",
+                "interessieren",
+                ""
+            ],
+            "guid": "t<TFo81KHr",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
                 "kennen",
                 "to know (people)",
                 "hat",
@@ -2325,6 +2527,50 @@
         {
             "__type__": "Note",
             "fields": [
+                "empfehlen",
+                "to recommend",
+                "hat",
+                "empfehlend",
+                "empfohlen",
+                "empfehle",
+                "empfiehlst",
+                "empfiehlt",
+                "empfehlen",
+                "empfehlt",
+                "empfehlen",
+                "1"
+            ],
+            "guid": "h|[_:}Z-Y&",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vokalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "waschen",
+                "to wash",
+                "hat",
+                "waschend",
+                "gewaschen",
+                "wasche",
+                "wäschst",
+                "wäscht",
+                "waschen",
+                "wascht",
+                "waschen",
+                "1"
+            ],
+            "guid": "gk$s%[plrx",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vokalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
                 "tragen",
                 "to carry, to wear",
                 "hat",
@@ -2339,6 +2585,28 @@
                 "1"
             ],
             "guid": "OdM*fSri,#",
+            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
+            "tags": [
+                "vokalwechsel"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "backen",
+                "to bake",
+                "hat",
+                "backend",
+                "gebacken",
+                "backe",
+                "bäckst",
+                "bäckt",
+                "backen",
+                "backt",
+                "backen",
+                "1"
+            ],
+            "guid": "GzL7z&JtJ9",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
             "tags": [
                 "vokalwechsel"
@@ -2366,7 +2634,7 @@
                 "vokalwechsel"
             ]
         },
-                {
+        {
             "__type__": "Note",
             "fields": [
                 "interessieren",
@@ -2391,9 +2659,9 @@
             "fields": [
                 "können",
                 "can, to be able to",
-                "hat",
-                "könnend",
-                "gekonnt",
+                "",
+                "",
+                "",
                 "kann",
                 "kannst",
                 "kann",
@@ -2433,9 +2701,9 @@
             "fields": [
                 "sollen",
                 "should, ought to",
-                "hat",
-                "sollend",
-                "gesollt",
+                "",
+                "",
+                "",
                 "soll",
                 "sollst",
                 "soll",
@@ -2455,9 +2723,9 @@
             "fields": [
                 "wollen",
                 "to want",
-                "hat",
-                "wollend",
-                "gewollt",
+                "",
+                "",
+                "",
                 "will",
                 "willst",
                 "will",
@@ -2477,9 +2745,9 @@
             "fields": [
                 "dürfen",
                 "may, to be allowed to",
-                "hat",
-                "dürfend",
-                "gedurft",
+                "",
+                "",
+                "",
                 "darf",
                 "darfst",
                 "darf",
@@ -2499,9 +2767,9 @@
             "fields": [
                 "mögen",
                 "to like",
-                "hat",
-                "mögend",
-                "gemocht",
+                "",
+                "",
+                "",
                 "mag",
                 "magst",
                 "mag",
