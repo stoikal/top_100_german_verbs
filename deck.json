@@ -927,29 +927,6 @@
             "__type__": "Note",
             "fields": [
                 "",
-                "waschen",
-                "to wash",
-                "hat",
-                "waschend",
-                "gewaschen",
-                "wasche",
-                "wäschst",
-                "wäscht",
-                "waschen",
-                "wascht",
-                "waschen",
-                "1"
-            ],
-            "guid": "gk$s%[plrx",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": [
-                "vokalwechsel"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "",
                 "tragen",
                 "to carry, to wear",
                 "hat",
@@ -1052,27 +1029,6 @@
                 ""
             ],
             "guid": "tCuQjnPXB,",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "",
-                "trinken",
-                "to drink",
-                "hat",
-                "trinkend",
-                "getrunken",
-                "trinke",
-                "trinkst",
-                "trinkt",
-                "trinken",
-                "trinkt",
-                "trinken",
-                ""
-            ],
-            "guid": "BX#cD$,*{#",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
             "tags": []
         },
@@ -1984,27 +1940,6 @@
                 ""
             ],
             "guid": "NbjqfP{T19",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "91",
-                "(sich) interessieren",
-                "to interest",
-                "hat",
-                "interessierend",
-                "interessiert",
-                "interessiere",
-                "interessierst",
-                "interessiert",
-                "interessieren",
-                "interessiert",
-                "interessieren",
-                ""
-            ],
-            "guid": "t<TFo81KHr",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
             "tags": []
         },
