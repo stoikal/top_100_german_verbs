@@ -511,7 +511,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "1",
                 "sein",
                 "to be",
                 "ist",
@@ -534,7 +534,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "2",
                 "haben",
                 "to have",
                 "hat",
@@ -557,7 +557,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "3",
                 "werden",
                 "to become",
                 "hat",
@@ -580,7 +580,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "34",
                 "fahren",
                 "to drive, to travel",
                 "ist",
@@ -603,7 +603,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "8",
                 "geben",
                 "to give",
                 "hat",
@@ -626,7 +626,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "22",
                 "nehmen",
                 "to take",
                 "hat",
@@ -649,7 +649,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "14",
                 "sehen",
                 "to see",
                 "hat",
@@ -672,7 +672,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "31",
                 "sprechen",
                 "to speak",
                 "hat",
@@ -695,7 +695,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "53",
                 "laufen",
                 "to run",
                 "ist",
@@ -718,7 +718,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "86",
                 "helfen",
                 "to help",
                 "hat",
@@ -741,7 +741,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "13",
                 "wissen",
                 "to know",
                 "hat",
@@ -788,7 +788,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "59",
                 "fallen",
                 "to fall",
                 "ist",
@@ -811,7 +811,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "38",
                 "gelten",
                 "to be valid",
                 "hat",
@@ -834,7 +834,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "26",
                 "halten",
                 "to hold/stop",
                 "hat",
@@ -857,7 +857,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "23",
                 "tun",
                 "to do",
                 "hat",
@@ -880,7 +880,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "63",
                 "treffen",
                 "to meet",
                 "hat",
@@ -903,7 +903,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "71",
                 "lesen",
                 "to read",
                 "hat",
@@ -926,7 +926,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "69",
                 "tragen",
                 "to carry, to wear",
                 "hat",
@@ -949,7 +949,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "15",
                 "lassen",
                 "to let",
                 "hat",
@@ -972,7 +972,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "12",
                 "gehen",
                 "to go",
                 "ist",
@@ -993,7 +993,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "9",
                 "kommen",
                 "to come",
                 "ist",
@@ -1014,7 +1014,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "18",
                 "bleiben",
                 "to stay",
                 "ist",
@@ -1035,7 +1035,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "17",
                 "finden",
                 "to find",
                 "hat",
@@ -1056,7 +1056,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "21",
                 "denken",
                 "to think",
                 "hat",
@@ -1077,7 +1077,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "32",
                 "bringen",
                 "to bring",
                 "hat",
@@ -1098,7 +1098,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "44",
                 "lernen",
                 "to learn",
                 "hat",
@@ -1140,7 +1140,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "7",
                 "machen",
                 "to do, to make",
                 "hat",
@@ -1161,7 +1161,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "6",
                 "sagen",
                 "to say",
                 "hat",
@@ -1182,7 +1182,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "16",
                 "stehen",
                 "to stand",
                 "hat",
@@ -1203,7 +1203,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "19",
                 "liegen",
                 "to lie, to be lying",
                 "hat",
@@ -1293,7 +1293,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "83",
                 "betreffen",
                 "to affect",
                 "hat",
@@ -1398,7 +1398,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "90",
                 "bieten",
                 "to offer",
                 "hat",
@@ -1419,7 +1419,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "79",
                 "bilden",
                 "to form",
                 "hat",
@@ -1440,7 +1440,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "42",
                 "brauchen",
                 "to need",
                 "hat",
@@ -1461,7 +1461,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "73",
                 "dar·stellen",
                 "to depict",
                 "hat",
@@ -1484,7 +1484,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "55",
                 "entsprechen",
                 "to correspond",
                 "hat",
@@ -1505,7 +1505,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "61",
                 "entstehen",
                 "to originate",
                 "ist",
@@ -1526,7 +1526,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "75",
                 "entwickeln",
                 "to develop",
                 "hat",
@@ -1547,7 +1547,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "93",
                 "ergeben",
                 "to result in",
                 "hat",
@@ -1568,7 +1568,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "62",
                 "erhalten",
                 "to receive",
                 "hat",
@@ -1589,7 +1589,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "74",
                 "erkennen",
                 "to recognize",
                 "hat",
@@ -1610,7 +1610,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "78",
                 "erscheinen",
                 "to appear",
                 "ist",
@@ -1631,7 +1631,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "92",
                 "erinnern",
                 "to remember",
                 "hat",
@@ -1652,7 +1652,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "54",
                 "erklären",
                 "to explain",
                 "hat",
@@ -1673,7 +1673,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "68",
                 "erreichen",
                 "to reach",
                 "hat",
@@ -1694,7 +1694,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "81",
                 "erwarten",
                 "to expect",
                 "hat",
@@ -1715,7 +1715,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "50",
                 "erzählen",
                 "to tell/narate",
                 "hat",
@@ -1736,7 +1736,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "98",
                 "fehlen",
                 "to be missing",
                 "hat",
@@ -1757,7 +1757,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "43",
                 "folgen",
                 "to follow",
                 "hat",
@@ -1778,7 +1778,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "36",
                 "fragen",
                 "to ask",
                 "hat",
@@ -1799,7 +1799,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "89",
                 "fühlen",
                 "to feel",
                 "hat",
@@ -1820,7 +1820,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "30",
                 "führen",
                 "to lead",
                 "hat",
@@ -1841,7 +1841,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "60",
                 "gehören",
                 "to belong",
                 "hat",
@@ -1862,7 +1862,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "87",
                 "gewinnen",
                 "to win",
                 "hat",
@@ -1883,7 +1883,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "25",
                 "glauben",
                 "to believe",
                 "hat",
@@ -1904,7 +1904,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "67",
                 "handeln",
                 "to deal/act",
                 "hat",
@@ -1925,7 +1925,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "20",
                 "heißen",
                 "to be called",
                 "hat",
@@ -1946,7 +1946,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "37",
                 "kennen",
                 "to know (people)",
                 "hat",
@@ -1967,7 +1967,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "33",
                 "leben",
                 "to live",
                 "hat",
@@ -1988,7 +1988,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "65",
                 "legen",
                 "to lay",
                 "hat",
@@ -2009,7 +2009,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "35",
                 "meinen",
                 "to think/mean",
                 "hat",
@@ -2030,7 +2030,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "27",
                 "nennen",
                 "to name",
                 "hat",
@@ -2051,7 +2051,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "76",
                 "reden",
                 "to talk",
                 "hat",
@@ -2072,7 +2072,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "70",
                 "schaffen",
                 "to manage, create",
                 "hat",
@@ -2093,7 +2093,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "58",
                 "scheinen",
                 "to shine, seem",
                 "hat",
@@ -2114,7 +2114,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "88",
                 "schließen",
                 "to close",
                 "hat",
@@ -2135,7 +2135,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "52",
                 "schreiben",
                 "to write",
                 "hat",
@@ -2156,7 +2156,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "47",
                 "setzen",
                 "to set, put",
                 "hat",
@@ -2177,7 +2177,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "56",
                 "sitzen",
                 "to sit",
                 "hat",
@@ -2198,7 +2198,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "40",
                 "spielen",
                 "to play",
                 "hat",
@@ -2219,7 +2219,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "39",
                 "stellen",
                 "to place, set",
                 "hat",
@@ -2240,7 +2240,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "95",
                 "studieren",
                 "to study",
                 "hat",
@@ -2261,7 +2261,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "64",
                 "suchen",
                 "to search",
                 "hat",
@@ -2282,7 +2282,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "85",
                 "vergehen",
                 "to elapse",
                 "ist",
@@ -2303,7 +2303,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "96",
                 "verbinden",
                 "to connect",
                 "hat",
@@ -2324,7 +2324,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "100",
                 "vergleichen",
                 "to compare",
                 "hat",
@@ -2345,7 +2345,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "72",
                 "verlieren",
                 "to lose",
                 "hat",
@@ -2366,7 +2366,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "46",
                 "verstehen",
                 "to understand",
                 "hat",
@@ -2387,7 +2387,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "51",
                 "versuchen",
                 "to try",
                 "hat",
@@ -2408,7 +2408,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "66",
                 "vor·stellen",
                 "to introduce",
                 "hat",
@@ -2431,7 +2431,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "84",
                 "warten",
                 "to wait",
                 "hat",
@@ -2452,7 +2452,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "82",
                 "wohnen",
                 "to live",
                 "hat",
@@ -2473,7 +2473,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "29",
                 "zeigen",
                 "to show",
                 "hat",
@@ -2494,7 +2494,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "57",
                 "ziehen",
                 "to pull, move",
                 "ist",
@@ -2515,7 +2515,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "91",
                 "interessieren",
                 "to interest",
                 "hat",
@@ -2536,7 +2536,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "4",
                 "können",
                 "can, to be able to",
                 "",
@@ -2559,7 +2559,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "5",
                 "müssen",
                 "must, to have to",
                 "",
@@ -2582,7 +2582,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "10",
                 "sollen",
                 "should, ought to",
                 "",
@@ -2605,7 +2605,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "11",
                 "wollen",
                 "to want",
                 "",
@@ -2628,7 +2628,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "24",
                 "dürfen",
                 "may, to be allowed to",
                 "",
@@ -2651,7 +2651,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "",
+                "28",
                 "mögen",
                 "to like",
                 "",
