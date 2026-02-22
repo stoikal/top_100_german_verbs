@@ -672,48 +672,6 @@
         {
             "__type__": "Note",
             "fields": [
-                "essen",
-                "to eat",
-                "hat",
-                "essend",
-                "gegessen",
-                "esse",
-                "isst",
-                "isst",
-                "essen",
-                "esst",
-                "essen",
-                "1"
-            ],
-            "guid": "jFkOnIWa58",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": [
-                "vokalwechsel"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "trinken",
-                "to drink",
-                "hat",
-                "trinkend",
-                "getrunken",
-                "trinke",
-                "trinkst",
-                "trinkt",
-                "trinken",
-                "trinkt",
-                "trinken",
-                ""
-            ],
-            "guid": "BX#cD$,*{#",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "sprechen",
                 "to speak",
                 "hat",
@@ -728,28 +686,6 @@
                 "1"
             ],
             "guid": "E-4HR&;r,8",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": [
-                "vokalwechsel"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "schlafen",
-                "to sleep",
-                "hat",
-                "schlafend",
-                "geschlafen",
-                "schlafe",
-                "schläfst",
-                "schläft",
-                "schlafen",
-                "schlaft",
-                "schlafen",
-                "1"
-            ],
-            "guid": "I0+j2B/yf-",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
             "tags": [
                 "vokalwechsel"
@@ -862,26 +798,6 @@
         {
             "__type__": "Note",
             "fields": [
-                "kaufen",
-                "to buy",
-                "hat",
-                "kaufend",
-                "gekauft",
-                "kaufe",
-                "kaufst",
-                "kauft",
-                "kaufen",
-                "kauft",
-                "kaufen",
-                ""
-            ],
-            "guid": "idPSdjp?-|",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "lernen",
                 "to learn",
                 "hat",
@@ -936,66 +852,6 @@
                 ""
             ],
             "guid": "M>%3CKm[$n",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "ankommen",
-                "to arrive",
-                "ist",
-                "ankommend",
-                "angekommen",
-                "komme an",
-                "kommst an",
-                "kommt an",
-                "kommen an",
-                "kommt an",
-                "kommen an",
-                ""
-            ],
-            "guid": "y~Mx0me+jB",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "aufstehen",
-                "to get up",
-                "ist",
-                "aufstehend",
-                "aufgestanden",
-                "stehe auf",
-                "stehst auf",
-                "steht auf",
-                "stehen auf",
-                "steht auf",
-                "stehen auf",
-                ""
-            ],
-            "guid": "wE.?s@%a+R",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "einkaufen",
-                "to shop, to buy",
-                "hat",
-                "einkaufend",
-                "eingekauft",
-                "kaufe ein",
-                "kaufst ein",
-                "kauft ein",
-                "kaufen ein",
-                "kauft ein",
-                "kaufen ein",
-                ""
-            ],
-            "guid": "E&oL0QODAQ",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
             "tags": []
         },
@@ -1861,26 +1717,6 @@
         {
             "__type__": "Note",
             "fields": [
-                "interessieren",
-                "to interest",
-                "hat",
-                "interessierend",
-                "interessiert",
-                "interessiere",
-                "interessierst",
-                "interessiert",
-                "interessieren",
-                "interessiert",
-                "interessieren",
-                ""
-            ],
-            "guid": "t<TFo81KHr",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "kennen",
                 "to know (people)",
                 "hat",
@@ -2489,50 +2325,6 @@
         {
             "__type__": "Note",
             "fields": [
-                "empfehlen",
-                "to recommend",
-                "hat",
-                "empfehlend",
-                "empfohlen",
-                "empfehle",
-                "empfiehlst",
-                "empfiehlt",
-                "empfehlen",
-                "empfehlt",
-                "empfehlen",
-                "1"
-            ],
-            "guid": "h|[_:}Z-Y&",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": [
-                "vokalwechsel"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "waschen",
-                "to wash",
-                "hat",
-                "waschend",
-                "gewaschen",
-                "wasche",
-                "wäschst",
-                "wäscht",
-                "waschen",
-                "wascht",
-                "waschen",
-                "1"
-            ],
-            "guid": "gk$s%[plrx",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": [
-                "vokalwechsel"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "tragen",
                 "to carry, to wear",
                 "hat",
@@ -2547,28 +2339,6 @@
                 "1"
             ],
             "guid": "OdM*fSri,#",
-            "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
-            "tags": [
-                "vokalwechsel"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "backen",
-                "to bake",
-                "hat",
-                "backend",
-                "gebacken",
-                "backe",
-                "bäckst",
-                "bäckt",
-                "backen",
-                "backt",
-                "backen",
-                "1"
-            ],
-            "guid": "GzL7z&JtJ9",
             "note_model_uuid": "7066fefa-0f37-11f1-a731-f1a8b921d120",
             "tags": [
                 "vokalwechsel"
