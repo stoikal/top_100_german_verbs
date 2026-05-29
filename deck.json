@@ -2,14 +2,14 @@
     "__type__": "Deck",
     "children": [],
     "crowdanki_uuid": "7064e0c0-0f37-11f1-a731-f1a8b921d120",
-    "deck_config_uuid": "7064ed2c-0f37-11f1-a731-f1a8b921d120",
+    "deck_config_uuid": "58a3827c-2fce-11f1-aa56-8bdf6c6eb63a",
     "deck_configurations": [
         {
             "__type__": "DeckConfig",
             "answerAction": 0,
             "autoplay": true,
             "buryInterdayLearning": false,
-            "crowdanki_uuid": "7064ed2c-0f37-11f1-a731-f1a8b921d120",
+            "crowdanki_uuid": "58a3827c-2fce-11f1-aa56-8bdf6c6eb63a",
             "desiredRetention": 0.9,
             "dyn": false,
             "easyDaysPercentages": [
@@ -53,12 +53,12 @@
                     10.0
                 ],
                 "leechAction": 1,
-                "leechFails": 16,
+                "leechFails": 8,
                 "minInt": 1,
                 "mult": 0.0
             },
             "maxTaken": 60,
-            "name": "4",
+            "name": "8",
             "new": {
                 "bury": false,
                 "delays": [
@@ -72,7 +72,7 @@
                     0
                 ],
                 "order": 1,
-                "perDay": 4
+                "perDay": 8
             },
             "newGatherPriority": 5,
             "newMix": 0,
@@ -86,7 +86,7 @@
                 "hardFactor": 1.2,
                 "ivlFct": 1.0,
                 "maxIvl": 36500,
-                "perDay": 40
+                "perDay": 80
             },
             "reviewOrder": 0,
             "secondsToShowAnswer": 0.0,
@@ -101,7 +101,7 @@
     "desc": "",
     "desiredRetention": null,
     "dyn": 0,
-    "extendNew": 20,
+    "extendNew": 4,
     "extendRev": 0,
     "media_files": [],
     "name": "meine_Notizen::Verben",
@@ -560,7 +560,7 @@
                 "3",
                 "werden",
                 "to become",
-                "hat",
+                "ist",
                 "werdend",
                 "geworden",
                 "werde",
@@ -1760,7 +1760,7 @@
                 "43",
                 "folgen",
                 "to follow",
-                "hat",
+                "ist",
                 "folgend",
                 "gefolgt",
                 "folge",
@@ -2497,7 +2497,7 @@
                 "57",
                 "ziehen",
                 "to pull, move",
-                "ist",
+                "ist/hat",
                 "ziehend",
                 "gezogen",
                 "ziehe",
