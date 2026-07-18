@@ -497,7 +497,7 @@
                     "qfmt": "{{#präsens_wir}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>wir</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_wir}}\n"
                 },
                 {
-                    "afmt": "{{#irregular}}\n{{#präsens_ihr}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>ihr</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{präsens_ihr}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_ihr}}\n{{/irregular}}",
+                    "afmt": "{{#präsens_ihr}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>ihr</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{präsens_ihr}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_ihr}}",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
@@ -509,7 +509,7 @@
                     "qfmt": "{{#präsens_ihr}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>ihr</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_ihr}}\n"
                 },
                 {
-                    "afmt": "{{#irregular}}\n{{#präsens_sie_Sie}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>sie/Sie</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{präsens_sie_Sie}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_sie_Sie}}\n{{/irregular}}",
+                    "afmt": "{{#präsens_sie_Sie}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>sie/Sie</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{präsens_sie_Sie}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_sie_Sie}}",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
