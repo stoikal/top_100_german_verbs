@@ -2,15 +2,15 @@
     "__type__": "Deck",
     "children": [],
     "crowdanki_uuid": "7064e0c0-0f37-11f1-a731-f1a8b921d120",
-    "deck_config_uuid": "58a3827c-2fce-11f1-aa56-8bdf6c6eb63a",
+    "deck_config_uuid": "b5ac3510-1a8c-11f1-b08a-099f8ddf8e57",
     "deck_configurations": [
         {
             "__type__": "DeckConfig",
             "answerAction": 0,
             "autoplay": true,
             "buryInterdayLearning": false,
-            "crowdanki_uuid": "58a3827c-2fce-11f1-aa56-8bdf6c6eb63a",
-            "desiredRetention": 0.9,
+            "crowdanki_uuid": "b5ac3510-1a8c-11f1-b08a-099f8ddf8e57",
+            "desiredRetention": 0.85,
             "dyn": false,
             "easyDaysPercentages": [
                 1.0,
@@ -22,29 +22,7 @@
                 1.0
             ],
             "fsrsParams5": [],
-            "fsrsParams6": [
-                0.212,
-                1.2931,
-                2.3065,
-                8.2956,
-                6.4133,
-                0.8334,
-                3.0194,
-                0.001,
-                1.8722,
-                0.1666,
-                0.796,
-                1.4835,
-                0.0614,
-                0.2629,
-                1.6483,
-                0.6014,
-                1.8729,
-                0.5425,
-                0.0912,
-                0.0658,
-                0.1542
-            ],
+            "fsrsParams6": [],
             "fsrsWeights": [],
             "ignoreRevlogsBeforeDate": "1970-01-01",
             "interdayLearningMix": 0,
@@ -58,7 +36,7 @@
                 "mult": 0.0
             },
             "maxTaken": 60,
-            "name": "8",
+            "name": "Default",
             "new": {
                 "bury": false,
                 "delays": [
@@ -72,7 +50,7 @@
                     0
                 ],
                 "order": 1,
-                "perDay": 8
+                "perDay": 20
             },
             "newGatherPriority": 5,
             "newMix": 0,
@@ -86,7 +64,7 @@
                 "hardFactor": 1.2,
                 "ivlFct": 1.0,
                 "maxIvl": 36500,
-                "perDay": 80
+                "perDay": 200
             },
             "reviewOrder": 0,
             "secondsToShowAnswer": 0.0,
@@ -382,27 +360,11 @@
                     "all",
                     [
                         1,
-                        9
-                    ]
-                ],
-                [
-                    7,
-                    "all",
-                    [
-                        1,
                         10
                     ]
                 ],
                 [
-                    8,
-                    "all",
-                    [
-                        1,
-                        11
-                    ]
-                ],
-                [
-                    9,
+                    7,
                     "all",
                     [
                         1,
@@ -485,18 +447,6 @@
                     "qfmt": "{{#präsens_er_sie_es}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>er/sie/es</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_er_sie_es}}\n"
                 },
                 {
-                    "afmt": "{{#präsens_wir}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>wir</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{präsens_wir}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_wir}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "id": -5180590165654532213,
-                    "name": "Card 7",
-                    "ord": 6,
-                    "qfmt": "{{#präsens_wir}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>wir</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_wir}}\n"
-                },
-                {
                     "afmt": "{{#präsens_ihr}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>ihr</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{präsens_ihr}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_ihr}}",
                     "bafmt": "",
                     "bfont": "",
@@ -505,20 +455,8 @@
                     "did": null,
                     "id": -5995462104599391384,
                     "name": "Card 8",
-                    "ord": 7,
+                    "ord": 6,
                     "qfmt": "{{#präsens_ihr}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>ihr</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_ihr}}\n"
-                },
-                {
-                    "afmt": "{{#präsens_sie_Sie}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>sie/Sie</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{präsens_sie_Sie}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_sie_Sie}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "id": -1826269668653084167,
-                    "name": "Card 9",
-                    "ord": 8,
-                    "qfmt": "{{#präsens_sie_Sie}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>sie/Sie</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/präsens_sie_Sie}}\n"
                 },
                 {
                     "afmt": "{{#präteritum_er_sie_es}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>präteritum (er/sie/es)</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>{{präteritum_er_sie_es}}</td>\n    </tr>\n  </tbody>\n</table>\n{{/präteritum_er_sie_es}}",
@@ -529,7 +467,7 @@
                     "did": null,
                     "id": -1474977356759765793,
                     "name": "Card 10",
-                    "ord": 9,
+                    "ord": 7,
                     "qfmt": "{{#präteritum_er_sie_es}}\n<table>\n  <thead>\n    <tr>\n      <th>Infinitiv</th>\n      <th>präteritum (er/sie/es)</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>{{infinitiv}}</td>\n      <td>?</td>\n    </tr>\n  </tbody>\n</table>\n{{/präteritum_er_sie_es}}"
                 }
             ],
